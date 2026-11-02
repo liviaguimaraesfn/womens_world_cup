@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Archive of every Women's World Cup squad, team and stadium from 1991 to 2023.">
   <title>Women's World Cup Archive</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Navbar with burger menu (collapses below the lg breakpoint) -->
-  <nav class="navbar navbar-expand-lg navbar-dark site-nav">
+  <!-- Navbar: burger menu below the lg breakpoint (992px) -->
+  <nav class="navbar navbar-expand-lg navbar-dark site-nav sticky-top">
     <div class="container-fluid page-wrap">
       <a class="navbar-brand fw-bold" href="/">WWC Archive</a>
       <button class="navbar-toggler" type="button"
@@ -22,9 +24,9 @@
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#explore">Explore</a></li>
-          <li class="nav-item"><a class="nav-link" href="#search">Search</a></li>
-          <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="#teams">Teams</a></li>
+          <li class="nav-item"><a class="nav-link" href="#players">Players</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         </ul>
       </div>
     </div>
@@ -33,21 +35,22 @@
   <!-- Hero -->
   <header class="hero text-center text-white">
     <h1 class="display-5 fw-bold">Women's World Cup Archive</h1>
-    <p class="lead mb-0">Every squad, every tournament, 1991 to 2023.</p>
+    <p class="lead mb-4">Every squad, every tournament, 1991 to 2023.</p>
+    <a href="#teams" class="btn btn-light btn-lg">Start exploring</a>
   </header>
 
-  <!-- Main content: wide side borders come from .page-wrap -->
+  <!-- Main content: wide side borders come from .page-wrap + .content-area -->
   <main class="page-wrap content-area py-4 py-md-5">
-    <section id="explore">
-      <h2 class="h3 mb-4">Explore</h2>
 
-      <!-- 1 column on phones, 2 columns from 768px up -->
+    <!-- Image cards: 1 column on phones, 2 columns from 768px -->
+    <section aria-labelledby="explore-title">
+      <h2 class="h3 mb-4" id="explore-title">Explore</h2>
       <div class="row g-4">
 
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" id="teams">
           <div class="card h-100 shadow-sm">
-            <img src="images/teams.jpg" class="card-img-top"
-                 alt="A national team squad posing together on the pitch">
+            <img src="images/teams.jpg" class="card-img-top img-teams"
+                 alt="Brazil national team squad and staff posing together on the pitch">
             <div class="card-body d-flex flex-column">
               <h3 class="h5 card-title">Teams</h3>
               <p class="card-text">Browse every nation that has played at a Women's World Cup.</p>
@@ -56,10 +59,10 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" id="players">
           <div class="card h-100 shadow-sm">
-            <img src="images/players.jpg" class="card-img-top"
-                 alt="A player in a yellow kit striking a football during a match">
+            <img src="images/players.jpg" class="card-img-top img-players"
+                 alt="A Brazil player in a yellow kit striking a football during a match">
             <div class="card-body d-flex flex-column">
               <h3 class="h5 card-title">Players</h3>
               <p class="card-text">Search players, squads and top scorers from 1991 onwards.</p>
@@ -68,11 +71,47 @@
           </div>
         </div>
 
-        <!-- Later: add Stadiums and Trivia cards here, using
-             class="col-12 col-md-6 col-lg-3" on all four to get 4 across on desktop -->
+      </div>
+    </section>
+
+    <!-- Feature cards: 1 column on phones, 3 across from 768px -->
+    <section id="about" class="mt-5" aria-labelledby="about-title">
+      <h2 class="h3 mb-4" id="about-title">What you will be able to do</h2>
+      <div class="row g-4">
+
+        <div class="col-12 col-md-4">
+          <div class="card h-100 feature-card">
+            <div class="card-body">
+              <div class="feature-icon" aria-hidden="true">🔍</div>
+              <h3 class="h5 card-title">Search and filter</h3>
+              <p class="card-text mb-0">Find results by year, host, team, stadium or top scorer.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card h-100 feature-card">
+            <div class="card-body">
+              <div class="feature-icon" aria-hidden="true">⭐</div>
+              <h3 class="h5 card-title">Favourites and wishlist</h3>
+              <p class="card-text mb-0">Save teams, players and stadiums you want to visit.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card h-100 feature-card">
+            <div class="card-body">
+              <div class="feature-icon" aria-hidden="true">🏆</div>
+              <h3 class="h5 card-title">Trivia quizzes</h3>
+              <p class="card-text mb-0">Test your knowledge and keep your best scores.</p>
+            </div>
+          </div>
+        </div>
 
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer text-center text-white py-3">

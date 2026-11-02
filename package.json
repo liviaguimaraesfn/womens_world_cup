@@ -1,9 +1,12 @@
 {
   "name": "womens_world_cup",
   "version": "1.0.0",
+  "description": "Women's World Cup Museum",
+  "private": true,
   "type": "module",
   "scripts": {
-    "start": "node app/controller/api.js"
+    "start": "node app/controller/api.js",
+    "dev": "node --watch app/controller/api.js"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",

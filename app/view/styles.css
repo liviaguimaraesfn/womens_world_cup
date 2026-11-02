@@ -1,14 +1,19 @@
+/* Mobile-first: base rules are for phones; min-width queries add larger screens */
 :root {
   --brand: #5b2a86;
   --brand-dark: #2b1442;
+  --border-soft: #d9d0e6;
 }
 
-body {
-  background: #f4f1f8;
-}
+html { scroll-behavior: smooth; }
+
+body { background: #f4f1f8; }
+
+/* Leaves room for the sticky navbar when jumping to anchors */
+section[id], div[id] { scroll-margin-top: 5rem; }
 
 /* Navbar and footer share the brand colour */
-.site-nav { background: var(--brand-dark); }
+.site-nav,
 .site-footer { background: var(--brand-dark); }
 
 /* Hero */
@@ -17,13 +22,29 @@ body {
   padding: 3rem 1rem;
 }
 
-/* Cards: same image height so both cards line up */
+/* Shared container: keeps nav and content aligned and centred */
+.page-wrap {
+  width: 100%;
+  max-width: 1400px;
+  margin-inline: auto;
+  padding-inline: 1rem;       /* phone: small side borders */
+}
+
+.content-area { background: #fff; }
+
+/* Image cards: same image height so cards line up */
 .card-img-top {
   height: 220px;
   object-fit: cover;
-  object-position: center top;
 }
+.img-teams   { object-position: center 30%; }
+.img-players { object-position: center 15%; }
 
+/* Feature cards */
+.feature-card { border-color: var(--border-soft); }
+.feature-icon { font-size: 2rem; line-height: 1; margin-bottom: .75rem; }
+
+/* Buttons */
 .btn-primary {
   background-color: var(--brand);
   border-color: var(--brand);
@@ -34,28 +55,15 @@ body {
   border-color: var(--brand-dark);
 }
 
-/* Base (phone): small side padding */
-.page-wrap {
-  padding-inline: 1rem;
-}
-
-.content-area {
-  background: #fff;
-}
-
-/* Tablet: bigger side borders and taller images */
+/* Tablet: wider side borders, taller images */
 @media (min-width: 768px) {
   .page-wrap { padding-inline: 3rem; }
   .hero { padding: 5rem 3rem; }
   .card-img-top { height: 280px; }
 }
 
-/* Desktop: wide borders, content centred with visible side lines */
+/* Desktop: wide borders plus visible side lines */
 @media (min-width: 1200px) {
   .page-wrap { padding-inline: 8rem; }
-  .content-area {
-    max-width: 1400px;
-    margin-inline: auto;
-    border-inline: 2px solid #d9d0e6;
-  }
+  .content-area { border-inline: 2px solid var(--border-soft); }
 }
