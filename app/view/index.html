@@ -4,65 +4,81 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Women's World Cup Archive</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <!-- Navbar with burger menu (collapses below the lg breakpoint) -->
+  <nav class="navbar navbar-expand-lg navbar-dark site-nav">
     <div class="container-fluid page-wrap">
-      <a class="navbar-brand" href="/">WWC Archive</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#mainNav" aria-controls="mainNav"
-              aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand fw-bold" href="/">WWC Archive</a>
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false"
+              aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#tournaments">Tournaments</a></li>
+          <li class="nav-item"><a class="nav-link" href="#explore">Explore</a></li>
           <li class="nav-item"><a class="nav-link" href="#search">Search</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
+  <!-- Hero -->
   <header class="hero text-center text-white">
-    <h1>Women's World Cup Archive</h1>
-    <p class="lead">Every squad, every tournament, 1991 to 2023.</p>
+    <h1 class="display-5 fw-bold">Women's World Cup Archive</h1>
+    <p class="lead mb-0">Every squad, every tournament, 1991 to 2023.</p>
   </header>
 
-  <main class="page-wrap py-4">
-    <section id="tournaments">
-      <h2 class="h4 mb-3">Explore</h2>
+  <!-- Main content: wide side borders come from .page-wrap -->
+  <main class="page-wrap content-area py-4 py-md-5">
+    <section id="explore">
+      <h2 class="h3 mb-4">Explore</h2>
+
+      <!-- 1 column on phones, 2 columns from 768px up -->
       <div class="row g-4">
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card h-100">
-            <img src="images/teams.jpg" class="card-img-top" alt="National teams">
-            <div class="card-body">
+
+        <div class="col-12 col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="images/teams.jpg" class="card-img-top"
+                 alt="A national team squad posing together on the pitch">
+            <div class="card-body d-flex flex-column">
               <h3 class="h5 card-title">Teams</h3>
-              <p class="card-text">Browse every nation that has played.</p>
-              <a href="#" class="btn btn-primary">View teams</a>
+              <p class="card-text">Browse every nation that has played at a Women's World Cup.</p>
+              <a href="#" class="btn btn-primary mt-auto align-self-start">View teams</a>
             </div>
           </div>
         </div>
-        <!-- Duplicate the col-div for Players, Stadiums, Trivia -->
+
+        <div class="col-12 col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="images/players.jpg" class="card-img-top"
+                 alt="A player in a yellow kit striking a football during a match">
+            <div class="card-body d-flex flex-column">
+              <h3 class="h5 card-title">Players</h3>
+              <p class="card-text">Search players, squads and top scorers from 1991 onwards.</p>
+              <a href="#" class="btn btn-primary mt-auto align-self-start">View players</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Later: add Stadiums and Trivia cards here, using
+             class="col-12 col-md-6 col-lg-3" on all four to get 4 across on desktop -->
+
       </div>
     </section>
   </main>
 
-  <footer class="bg-dark text-white text-center py-3">&copy; 2026 WWC Archive</footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <footer class="site-footer text-center text-white py-3">
+    <small>&copy; 2026 WWC Archive &middot; TU Dublin Web Development Project</small>
+  </footer>
 
-  <footer class="bg-dark text-white text-center py-3">
-    &copy; 2026 WWC Archive<br>
-    <small>
-      Photo of Marta:
-      <a class="text-white" href="https://commons.wikimedia.org/wiki/File:Marta_Brazil.jpg">Amerpear</a>,
-      <a class="text-white" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>,
-      via Wikimedia Commons
-    </small>
-    </footer>
-
+  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

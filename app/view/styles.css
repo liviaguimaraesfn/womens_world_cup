@@ -1,13 +1,61 @@
-.hero { background: #5b2a86 center/cover; padding: 3rem 1rem; }
-.card-img-top { height: 180px; object-fit: cover; }
+:root {
+  --brand: #5b2a86;
+  --brand-dark: #2b1442;
+}
 
-/* Wide side borders: small on phones, generous on large screens */
-.page-wrap { padding-inline: 1rem; }
-@media (min-width: 768px)  { .page-wrap { padding-inline: 3rem; } .hero { padding: 5rem 3rem; } }
-@media (min-width: 1200px) { .page-wrap { padding-inline: 8rem; } }
+body {
+  background: #f4f1f8;
+}
 
+/* Navbar and footer share the brand colour */
+.site-nav { background: var(--brand-dark); }
+.site-footer { background: var(--brand-dark); }
+
+/* Hero */
+.hero {
+  background: var(--brand);
+  padding: 3rem 1rem;
+}
+
+/* Cards: same image height so both cards line up */
 .card-img-top {
-  height: 180px;
+  height: 220px;
   object-fit: cover;
-  object-position: center bottom;
+  object-position: center top;
+}
+
+.btn-primary {
+  background-color: var(--brand);
+  border-color: var(--brand);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--brand-dark);
+  border-color: var(--brand-dark);
+}
+
+/* Base (phone): small side padding */
+.page-wrap {
+  padding-inline: 1rem;
+}
+
+.content-area {
+  background: #fff;
+}
+
+/* Tablet: bigger side borders and taller images */
+@media (min-width: 768px) {
+  .page-wrap { padding-inline: 3rem; }
+  .hero { padding: 5rem 3rem; }
+  .card-img-top { height: 280px; }
+}
+
+/* Desktop: wide borders, content centred with visible side lines */
+@media (min-width: 1200px) {
+  .page-wrap { padding-inline: 8rem; }
+  .content-area {
+    max-width: 1400px;
+    margin-inline: auto;
+    border-inline: 2px solid #d9d0e6;
+  }
 }
