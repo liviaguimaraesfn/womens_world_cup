@@ -1,4 +1,17 @@
-teams.jpg - "01.07.2023 - Encontro com a Seleção Brasileira Feminina de Futebol" by Palácio do Planalto from Brasilia, Brasil, CC BY 2.0, via Wikimedia Commons. Cropped for display.
-https://commons.wikimedia.org/wiki/File:01.07.2023_-_Encontro_com_a_Seleção_Brasileira_Feminina_de_Futebol_(53018806295).jpg
+IMAGE CREDITS
 
-players.jpg - "Marta Brazil.jpg" by Amerpear, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Marta_Brazil.jpg
+teams.jpg
+  Title:   "01.07.2023 - Encontro com a Seleção Brasileira Feminina de Futebol"
+  Author:  Palácio do Planalto from Brasilia, Brasil
+  Licence: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/)
+  Source:  https://commons.wikimedia.org/wiki/File:01.07.2023_-_Encontro_com_a_Seleção_Brasileira_Feminina_de_Futebol_(53018806295).jpg
+  Changes: Cropped for display.
+
+players.jpg
+  Title:   "Marta Brazil.jpg"
+  Author:  Amerpear
+  Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+  Source:  https://commons.wikimedia.org/wiki/File:Marta_Brazil.jpg
+  Changes: Cropped for display, if you resized or cropped it. Delete this line if the file is unchanged.
+
+Both images were obtained via Wikimedia Commons.
