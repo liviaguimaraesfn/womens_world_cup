@@ -41,7 +41,9 @@ export async function getTeamPlayers(code, year) {
     sql += ' AND tr.year = ?';
     params.push(year);
   }
-  sql += ' ORDER BY tr.year, p.known_as';
+  sql += ` ORDER BY tr.year,
+                  FIELD(p.position, 'Goalkeeper', 'Defender', 'Midfielder', 'Forward'),
+                  p.known_as`;
   const [rows] = await pool.query(sql, params);
   return rows;
 }

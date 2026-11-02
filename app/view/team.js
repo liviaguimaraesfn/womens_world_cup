@@ -1,5 +1,7 @@
 const code = (new URLSearchParams(location.search).get('code') || 'BRA').toUpperCase();
 
+const DEFAULT_YEAR = 2023;
+
 const $ = (id) => document.getElementById(id);
 
 async function getJSON(url) {
@@ -82,6 +84,9 @@ async function loadPlayers() {
       list.append(none);
       return;
     }
+    $('players-title').textContent = year
+      ? `Players at ${year} (${players.length})`
+      : `Players (${players.length})`;
     players.forEach((p) => list.append(playerCard(p)));
   } catch (err) {
     console.error(err);
@@ -101,6 +106,10 @@ async function init() {
     $('team-sub').textContent = `${team.confederation} · ${history.length} World Cups played`;
     renderHistory(history);
     fillYearFilter(history);
+    // Show the most recent squad first; the user can switch back to "All tournaments"
+    if (history.some((r) => r.year === DEFAULT_YEAR)) {
+      $('year-filter').value = String(DEFAULT_YEAR);
+    }
     await loadPlayers();
   } catch (err) {
     console.error(err);
