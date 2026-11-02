@@ -1,0 +1,13 @@
+.hero { background: #5b2a86 center/cover; padding: 3rem 1rem; }
+.card-img-top { height: 180px; object-fit: cover; }
+
+/* Wide side borders: small on phones, generous on large screens */
+.page-wrap { padding-inline: 1rem; }
+@media (min-width: 768px)  { .page-wrap { padding-inline: 3rem; } .hero { padding: 5rem 3rem; } }
+@media (min-width: 1200px) { .page-wrap { padding-inline: 8rem; } }
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  object-position: center bottom;
+}

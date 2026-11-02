@@ -1,0 +1,17 @@
+{
+  "name": "womens_world_cup",
+  "version": "1.0.0",
+  "description": "Women's World Cup archive, 1991 to 2023",
+  "main": "app/controller/api.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app/controller/api.js"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
