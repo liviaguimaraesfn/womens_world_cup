@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team - Women's World Cup Archive</title>
+  <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark site-nav sticky-top">
+    <div class="container-fluid page-wrap">
+      <a class="navbar-brand fw-bold" href="/">WWC Archive</a>
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="team.html?code=BRA">Teams</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero text-center text-white">
+    <h1 class="display-5 fw-bold" id="team-name">Loading...</h1>
+    <p class="lead mb-0" id="team-sub"></p>
+  </header>
+
+  <main class="page-wrap content-area py-4 py-md-5">
+
+    <div id="error" class="alert alert-danger d-none" role="alert"></div>
+
+    <section aria-labelledby="history-title">
+      <h2 class="h3 mb-3" id="history-title">World Cup history</h2>
+      <div class="table-responsive">
+        <table class="table table-striped align-middle">
+          <thead>
+            <tr><th>Year</th><th>Host</th><th>Result</th><th>Winner</th></tr>
+          </thead>
+          <tbody id="history-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mt-5" aria-labelledby="players-title">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2 mb-3">
+        <h2 class="h3 mb-0" id="players-title">Players</h2>
+        <div>
+          <label for="year-filter" class="visually-hidden">Filter by tournament year</label>
+          <select id="year-filter" class="form-select">
+            <option value="">All tournaments</option>
+          </select>
+        </div>
+      </div>
+      <div class="row g-3" id="players-list"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer text-center text-white py-3">
+    <small>&copy; 2026 WWC Archive &middot; TU Dublin Web Development Project</small>
+  </footer>
+
+  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="team.js"></script>
+</body>
+</html>
