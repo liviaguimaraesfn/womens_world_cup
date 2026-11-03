@@ -25,6 +25,7 @@ function teamCard(t) {
 
 function renderTournaments(rows) {
   const body = $('tournaments-body');
+  if (!body) return;   // the teams page has no tournaments table
   body.replaceChildren();
   for (const r of rows) {
     const tr = document.createElement('tr');

@@ -1,0 +1,3209 @@
+{
+ "tournaments": [
+  {
+   "id": 1,
+   "year": 1991,
+   "host": "China",
+   "winner": "United States",
+   "runner_up": "Norway"
+  },
+  {
+   "id": 2,
+   "year": 1995,
+   "host": "Sweden",
+   "winner": "Norway",
+   "runner_up": "Germany"
+  },
+  {
+   "id": 3,
+   "year": 1999,
+   "host": "United States",
+   "winner": "United States",
+   "runner_up": "China"
+  },
+  {
+   "id": 4,
+   "year": 2003,
+   "host": "United States",
+   "winner": "Germany",
+   "runner_up": "Sweden"
+  },
+  {
+   "id": 5,
+   "year": 2007,
+   "host": "China",
+   "winner": "Germany",
+   "runner_up": "Brazil"
+  },
+  {
+   "id": 6,
+   "year": 2011,
+   "host": "Germany",
+   "winner": "Japan",
+   "runner_up": "United States"
+  },
+  {
+   "id": 7,
+   "year": 2015,
+   "host": "Canada",
+   "winner": "United States",
+   "runner_up": "Japan"
+  },
+  {
+   "id": 8,
+   "year": 2019,
+   "host": "France",
+   "winner": "United States",
+   "runner_up": "Netherlands"
+  },
+  {
+   "id": 9,
+   "year": 2023,
+   "host": "Australia / New Zealand",
+   "winner": "Spain",
+   "runner_up": "England"
+  }
+ ],
+ "teams": [
+  {
+   "id": 1,
+   "code": "BRA",
+   "name": "Brazil",
+   "confederation": "CONMEBOL",
+   "coach_2023": "Pia Sundhage",
+   "summary": "Brazil have played at all nine Women's World Cups. They finished runners-up in 2007 and third in 1999, and Marta holds the record for most goals at a Women's World Cup with 17."
+  },
+  {
+   "id": 2,
+   "code": "USA",
+   "name": "United States",
+   "confederation": "CONCACAF",
+   "coach_2023": "Vlatko Andonovski",
+   "summary": "The most successful team in the tournament's history, with four titles (1991, 1999, 2015 and 2019). In 2023 they were knocked out by Sweden on penalties in the round of 16, their earliest exit."
+  },
+  {
+   "id": 3,
+   "code": "GER",
+   "name": "Germany",
+   "confederation": "UEFA",
+   "coach_2023": "Martina Voss-Tecklenburg",
+   "summary": "Two-time champions (2003 and 2007) and runners-up in 1995. They won the 2007 title without conceding a goal, but went out in the group stage in 2023 for the first time."
+  },
+  {
+   "id": 4,
+   "code": "NOR",
+   "name": "Norway",
+   "confederation": "UEFA",
+   "coach_2023": "Hege Riise",
+   "summary": "Champions in 1995 and runners-up in the very first tournament in 1991. They also reached the semi-finals in 1999 and 2007, but were eliminated in the group stage in 2023."
+  },
+  {
+   "id": 5,
+   "code": "JPN",
+   "name": "Japan",
+   "confederation": "AFC",
+   "coach_2023": "Futoshi Ikeda",
+   "summary": "Champions in 2011, becoming the first Asian team to win a senior FIFA World Cup, after beating the United States on penalties in the final. Runners-up in 2015 and quarter-finalists in 2023."
+  },
+  {
+   "id": 6,
+   "code": "ESP",
+   "name": "Spain",
+   "confederation": "UEFA",
+   "coach_2023": "Jorge Vilda",
+   "summary": "Spain first qualified in 2015 and became world champions in 2023 in only their third appearance, beating England 1-0 in the final."
+  }
+ ],
+ "team_tournaments": [
+  {
+   "team_id": 1,
+   "tournament_id": 1,
+   "result": "Group stage"
+  },
+  {
+   "team_id": 1,
+   "tournament_id": 2,
+   "result": "Group stage"
+  },
+  {
+   "team_id": 1,
+   "tournament_id": 3,
+   "result": "Third place"
+  },
+  {
+   "team_id": 1,
+   "tournament_id": 4,
+   "result": "Quarter-finals"
+  },
+  {
+   "team_id": 1,
+   "tournament_id": 5,
+   "result": "Runners-up"
+  },
+  {
+   "team_id": 1,
+   "tournament_id": 6,
+   "result": "Quarter-finals"
+  },
+  {
+   "team_id": 1,
+   "tournament_id": 7,
+   "result": "Round of 16"
+  },
+  {
+   "team_id": 1,
+   "tournament_id": 8,
+   "result": "Round of 16"
+  },
+  {
+   "team_id": 1,
+   "tournament_id": 9,
+   "result": "Group stage"
+  },
+  {
+   "team_id": 2,
+   "tournament_id": 1,
+   "result": "Champions"
+  },
+  {
+   "team_id": 2,
+   "tournament_id": 2,
+   "result": "Third place"
+  },
+  {
+   "team_id": 2,
+   "tournament_id": 3,
+   "result": "Champions"
+  },
+  {
+   "team_id": 2,
+   "tournament_id": 4,
+   "result": "Third place"
+  },
+  {
+   "team_id": 2,
+   "tournament_id": 5,
+   "result": "Third place"
+  },
+  {
+   "team_id": 2,
+   "tournament_id": 6,
+   "result": "Runners-up"
+  },
+  {
+   "team_id": 2,
+   "tournament_id": 7,
+   "result": "Champions"
+  },
+  {
+   "team_id": 2,
+   "tournament_id": 8,
+   "result": "Champions"
+  },
+  {
+   "team_id": 2,
+   "tournament_id": 9,
+   "result": "Round of 16"
+  },
+  {
+   "team_id": 3,
+   "tournament_id": 1,
+   "result": "Fourth place"
+  },
+  {
+   "team_id": 3,
+   "tournament_id": 2,
+   "result": "Runners-up"
+  },
+  {
+   "team_id": 3,
+   "tournament_id": 3,
+   "result": "Quarter-finals"
+  },
+  {
+   "team_id": 3,
+   "tournament_id": 4,
+   "result": "Champions"
+  },
+  {
+   "team_id": 3,
+   "tournament_id": 5,
+   "result": "Champions"
+  },
+  {
+   "team_id": 3,
+   "tournament_id": 6,
+   "result": "Quarter-finals"
+  },
+  {
+   "team_id": 3,
+   "tournament_id": 7,
+   "result": "Fourth place"
+  },
+  {
+   "team_id": 3,
+   "tournament_id": 8,
+   "result": "Quarter-finals"
+  },
+  {
+   "team_id": 3,
+   "tournament_id": 9,
+   "result": "Group stage"
+  },
+  {
+   "team_id": 4,
+   "tournament_id": 1,
+   "result": "Runners-up"
+  },
+  {
+   "team_id": 4,
+   "tournament_id": 2,
+   "result": "Champions"
+  },
+  {
+   "team_id": 4,
+   "tournament_id": 3,
+   "result": "Fourth place"
+  },
+  {
+   "team_id": 4,
+   "tournament_id": 4,
+   "result": "Quarter-finals"
+  },
+  {
+   "team_id": 4,
+   "tournament_id": 5,
+   "result": "Fourth place"
+  },
+  {
+   "team_id": 4,
+   "tournament_id": 6,
+   "result": "Group stage"
+  },
+  {
+   "team_id": 4,
+   "tournament_id": 7,
+   "result": "Round of 16"
+  },
+  {
+   "team_id": 4,
+   "tournament_id": 8,
+   "result": "Quarter-finals"
+  },
+  {
+   "team_id": 4,
+   "tournament_id": 9,
+   "result": "Group stage"
+  },
+  {
+   "team_id": 5,
+   "tournament_id": 1,
+   "result": "Group stage"
+  },
+  {
+   "team_id": 5,
+   "tournament_id": 2,
+   "result": "Quarter-finals"
+  },
+  {
+   "team_id": 5,
+   "tournament_id": 3,
+   "result": "Group stage"
+  },
+  {
+   "team_id": 5,
+   "tournament_id": 4,
+   "result": "Group stage"
+  },
+  {
+   "team_id": 5,
+   "tournament_id": 5,
+   "result": "Group stage"
+  },
+  {
+   "team_id": 5,
+   "tournament_id": 6,
+   "result": "Champions"
+  },
+  {
+   "team_id": 5,
+   "tournament_id": 7,
+   "result": "Runners-up"
+  },
+  {
+   "team_id": 5,
+   "tournament_id": 8,
+   "result": "Round of 16"
+  },
+  {
+   "team_id": 5,
+   "tournament_id": 9,
+   "result": "Quarter-finals"
+  },
+  {
+   "team_id": 6,
+   "tournament_id": 7,
+   "result": "Group stage"
+  },
+  {
+   "team_id": 6,
+   "tournament_id": 8,
+   "result": "Round of 16"
+  },
+  {
+   "team_id": 6,
+   "tournament_id": 9,
+   "result": "Champions"
+  }
+ ],
+ "players": [
+  {
+   "id": 1,
+   "full_name": "Bárbara",
+   "known_as": "Bárbara",
+   "birth_year": 1988,
+   "birth_date": "1988-07-04",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 2,
+   "full_name": "Antônia",
+   "known_as": "Antônia",
+   "birth_year": 1994,
+   "birth_date": "1994-04-26",
+   "position": "Defender"
+  },
+  {
+   "id": 3,
+   "full_name": "Kathellen",
+   "known_as": "Kathellen",
+   "birth_year": 1996,
+   "birth_date": "1996-04-26",
+   "position": "Defender"
+  },
+  {
+   "id": 4,
+   "full_name": "Rafaelle Souza",
+   "known_as": "Rafaelle",
+   "birth_year": 1991,
+   "birth_date": "1991-06-18",
+   "position": "Defender"
+  },
+  {
+   "id": 5,
+   "full_name": "Luana",
+   "known_as": "Luana",
+   "birth_year": 1993,
+   "birth_date": "1993-05-02",
+   "position": "Midfielder"
+  },
+  {
+   "id": 6,
+   "full_name": "Tamires",
+   "known_as": "Tamires",
+   "birth_year": 1987,
+   "birth_date": "1987-10-10",
+   "position": "Defender"
+  },
+  {
+   "id": 7,
+   "full_name": "Andressa Alves",
+   "known_as": "Andressa Alves",
+   "birth_year": 1992,
+   "birth_date": "1992-11-10",
+   "position": "Forward"
+  },
+  {
+   "id": 8,
+   "full_name": "Ana Vitória",
+   "known_as": "Ana Vitória",
+   "birth_year": 2000,
+   "birth_date": "2000-03-06",
+   "position": "Midfielder"
+  },
+  {
+   "id": 9,
+   "full_name": "Debinha",
+   "known_as": "Debinha",
+   "birth_year": 1991,
+   "birth_date": "1991-10-20",
+   "position": "Forward"
+  },
+  {
+   "id": 10,
+   "full_name": "Marta Vieira da Silva",
+   "known_as": "Marta",
+   "birth_year": 1986,
+   "birth_date": "1986-02-19",
+   "position": "Forward"
+  },
+  {
+   "id": 11,
+   "full_name": "Adriana",
+   "known_as": "Adriana",
+   "birth_year": 1996,
+   "birth_date": "1996-11-17",
+   "position": "Midfielder"
+  },
+  {
+   "id": 12,
+   "full_name": "Letícia Izidoro",
+   "known_as": "Letícia",
+   "birth_year": 1994,
+   "birth_date": "1994-08-13",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 13,
+   "full_name": "Bruninha",
+   "known_as": "Bruninha",
+   "birth_year": 2002,
+   "birth_date": "2002-06-16",
+   "position": "Defender"
+  },
+  {
+   "id": 14,
+   "full_name": "Lauren",
+   "known_as": "Lauren",
+   "birth_year": 2002,
+   "birth_date": "2002-09-13",
+   "position": "Defender"
+  },
+  {
+   "id": 15,
+   "full_name": "Duda Sampaio",
+   "known_as": "Duda Sampaio",
+   "birth_year": 2001,
+   "birth_date": "2001-05-18",
+   "position": "Midfielder"
+  },
+  {
+   "id": 16,
+   "full_name": "Bia Zaneratto",
+   "known_as": "Bia Zaneratto",
+   "birth_year": 1993,
+   "birth_date": "1993-12-17",
+   "position": "Forward"
+  },
+  {
+   "id": 17,
+   "full_name": "Ary Borges",
+   "known_as": "Ary Borges",
+   "birth_year": 1999,
+   "birth_date": "1999-12-28",
+   "position": "Midfielder"
+  },
+  {
+   "id": 18,
+   "full_name": "Geyse",
+   "known_as": "Geyse",
+   "birth_year": 1998,
+   "birth_date": "1998-03-27",
+   "position": "Forward"
+  },
+  {
+   "id": 19,
+   "full_name": "Mônica",
+   "known_as": "Mônica",
+   "birth_year": 1987,
+   "birth_date": "1987-04-21",
+   "position": "Defender"
+  },
+  {
+   "id": 20,
+   "full_name": "Angelina",
+   "known_as": "Angelina",
+   "birth_year": 2000,
+   "birth_date": "2000-01-26",
+   "position": "Midfielder"
+  },
+  {
+   "id": 21,
+   "full_name": "Kerolin",
+   "known_as": "Kerolin",
+   "birth_year": 1999,
+   "birth_date": "1999-11-17",
+   "position": "Midfielder"
+  },
+  {
+   "id": 22,
+   "full_name": "Camila Rodrigues",
+   "known_as": "Camila",
+   "birth_year": 2001,
+   "birth_date": "2001-01-02",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 23,
+   "full_name": "Gabi Nunes",
+   "known_as": "Gabi Nunes",
+   "birth_year": 1997,
+   "birth_date": "1997-03-10",
+   "position": "Forward"
+  },
+  {
+   "id": 24,
+   "full_name": "Alyssa Naeher",
+   "known_as": "Alyssa Naeher",
+   "birth_year": 1988,
+   "birth_date": "1988-04-20",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 25,
+   "full_name": "Ashley Sanchez",
+   "known_as": "Ashley Sanchez",
+   "birth_year": 1999,
+   "birth_date": "1999-03-16",
+   "position": "Midfielder"
+  },
+  {
+   "id": 26,
+   "full_name": "Sofia Huerta",
+   "known_as": "Sofia Huerta",
+   "birth_year": 1992,
+   "birth_date": "1992-12-14",
+   "position": "Defender"
+  },
+  {
+   "id": 27,
+   "full_name": "Naomi Girma",
+   "known_as": "Naomi Girma",
+   "birth_year": 2000,
+   "birth_date": "2000-06-14",
+   "position": "Defender"
+  },
+  {
+   "id": 28,
+   "full_name": "Kelley O'Hara",
+   "known_as": "Kelley O'Hara",
+   "birth_year": 1988,
+   "birth_date": "1988-08-04",
+   "position": "Defender"
+  },
+  {
+   "id": 29,
+   "full_name": "Lynn Williams",
+   "known_as": "Lynn Williams",
+   "birth_year": 1993,
+   "birth_date": "1993-05-21",
+   "position": "Forward"
+  },
+  {
+   "id": 30,
+   "full_name": "Alyssa Thompson",
+   "known_as": "Alyssa Thompson",
+   "birth_year": 2004,
+   "birth_date": "2004-11-07",
+   "position": "Forward"
+  },
+  {
+   "id": 31,
+   "full_name": "Julie Ertz",
+   "known_as": "Julie Ertz",
+   "birth_year": 1992,
+   "birth_date": "1992-04-06",
+   "position": "Midfielder"
+  },
+  {
+   "id": 32,
+   "full_name": "Savannah DeMelo",
+   "known_as": "Savannah DeMelo",
+   "birth_year": 1998,
+   "birth_date": "1998-03-26",
+   "position": "Midfielder"
+  },
+  {
+   "id": 33,
+   "full_name": "Lindsey Horan",
+   "known_as": "Lindsey Horan",
+   "birth_year": 1994,
+   "birth_date": "1994-05-26",
+   "position": "Midfielder"
+  },
+  {
+   "id": 34,
+   "full_name": "Sophia Smith",
+   "known_as": "Sophia Smith",
+   "birth_year": 2000,
+   "birth_date": "2000-08-10",
+   "position": "Forward"
+  },
+  {
+   "id": 35,
+   "full_name": "Alana Cook",
+   "known_as": "Alana Cook",
+   "birth_year": 1997,
+   "birth_date": "1997-04-11",
+   "position": "Defender"
+  },
+  {
+   "id": 36,
+   "full_name": "Alex Morgan",
+   "known_as": "Alex Morgan",
+   "birth_year": 1989,
+   "birth_date": "1989-07-02",
+   "position": "Forward"
+  },
+  {
+   "id": 37,
+   "full_name": "Emily Sonnett",
+   "known_as": "Emily Sonnett",
+   "birth_year": 1993,
+   "birth_date": "1993-11-25",
+   "position": "Defender"
+  },
+  {
+   "id": 38,
+   "full_name": "Megan Rapinoe",
+   "known_as": "Megan Rapinoe",
+   "birth_year": 1985,
+   "birth_date": "1985-07-05",
+   "position": "Forward"
+  },
+  {
+   "id": 39,
+   "full_name": "Rose Lavelle",
+   "known_as": "Rose Lavelle",
+   "birth_year": 1995,
+   "birth_date": "1995-05-14",
+   "position": "Midfielder"
+  },
+  {
+   "id": 40,
+   "full_name": "Andi Sullivan",
+   "known_as": "Andi Sullivan",
+   "birth_year": 1995,
+   "birth_date": "1995-12-20",
+   "position": "Midfielder"
+  },
+  {
+   "id": 41,
+   "full_name": "Casey Murphy",
+   "known_as": "Casey Murphy",
+   "birth_year": 1996,
+   "birth_date": "1996-04-25",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 42,
+   "full_name": "Crystal Dunn",
+   "known_as": "Crystal Dunn",
+   "birth_year": 1992,
+   "birth_date": "1992-07-03",
+   "position": "Defender"
+  },
+  {
+   "id": 43,
+   "full_name": "Trinity Rodman",
+   "known_as": "Trinity Rodman",
+   "birth_year": 2002,
+   "birth_date": "2002-05-20",
+   "position": "Forward"
+  },
+  {
+   "id": 44,
+   "full_name": "Aubrey Kingsbury",
+   "known_as": "Aubrey Kingsbury",
+   "birth_year": 1991,
+   "birth_date": "1991-11-20",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 45,
+   "full_name": "Kristie Mewis",
+   "known_as": "Kristie Mewis",
+   "birth_year": 1991,
+   "birth_date": "1991-02-25",
+   "position": "Midfielder"
+  },
+  {
+   "id": 46,
+   "full_name": "Emily Fox",
+   "known_as": "Emily Fox",
+   "birth_year": 1998,
+   "birth_date": "1998-07-05",
+   "position": "Defender"
+  },
+  {
+   "id": 47,
+   "full_name": "Merle Frohms",
+   "known_as": "Merle Frohms",
+   "birth_year": 1995,
+   "birth_date": "1995-01-28",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 48,
+   "full_name": "Chantal Hagel",
+   "known_as": "Chantal Hagel",
+   "birth_year": 1998,
+   "birth_date": "1998-07-20",
+   "position": "Midfielder"
+  },
+  {
+   "id": 49,
+   "full_name": "Kathrin Hendrich",
+   "known_as": "Kathrin Hendrich",
+   "birth_year": 1992,
+   "birth_date": "1992-04-06",
+   "position": "Defender"
+  },
+  {
+   "id": 50,
+   "full_name": "Sophia Kleinherne",
+   "known_as": "Sophia Kleinherne",
+   "birth_year": 2000,
+   "birth_date": "2000-04-12",
+   "position": "Defender"
+  },
+  {
+   "id": 51,
+   "full_name": "Marina Hegering",
+   "known_as": "Marina Hegering",
+   "birth_year": 1990,
+   "birth_date": "1990-04-17",
+   "position": "Defender"
+  },
+  {
+   "id": 52,
+   "full_name": "Lena Oberdorf",
+   "known_as": "Lena Oberdorf",
+   "birth_year": 2001,
+   "birth_date": "2001-12-19",
+   "position": "Midfielder"
+  },
+  {
+   "id": 53,
+   "full_name": "Lea Schüller",
+   "known_as": "Lea Schüller",
+   "birth_year": 1997,
+   "birth_date": "1997-11-12",
+   "position": "Forward"
+  },
+  {
+   "id": 54,
+   "full_name": "Sydney Lohmann",
+   "known_as": "Sydney Lohmann",
+   "birth_year": 2000,
+   "birth_date": "2000-06-19",
+   "position": "Midfielder"
+  },
+  {
+   "id": 55,
+   "full_name": "Svenja Huth",
+   "known_as": "Svenja Huth",
+   "birth_year": 1991,
+   "birth_date": "1991-01-25",
+   "position": "Forward"
+  },
+  {
+   "id": 56,
+   "full_name": "Laura Freigang",
+   "known_as": "Laura Freigang",
+   "birth_year": 1998,
+   "birth_date": "1998-02-01",
+   "position": "Forward"
+  },
+  {
+   "id": 57,
+   "full_name": "Alexandra Popp",
+   "known_as": "Alexandra Popp",
+   "birth_year": 1991,
+   "birth_date": "1991-04-06",
+   "position": "Forward"
+  },
+  {
+   "id": 58,
+   "full_name": "Ann-Katrin Berger",
+   "known_as": "Ann-Katrin Berger",
+   "birth_year": 1990,
+   "birth_date": "1990-10-09",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 59,
+   "full_name": "Sara Däbritz",
+   "known_as": "Sara Däbritz",
+   "birth_year": 1995,
+   "birth_date": "1995-02-15",
+   "position": "Midfielder"
+  },
+  {
+   "id": 60,
+   "full_name": "Lena Lattwein",
+   "known_as": "Lena Lattwein",
+   "birth_year": 2000,
+   "birth_date": "2000-05-02",
+   "position": "Midfielder"
+  },
+  {
+   "id": 61,
+   "full_name": "Sjoeke Nüsken",
+   "known_as": "Sjoeke Nüsken",
+   "birth_year": 2001,
+   "birth_date": "2001-01-22",
+   "position": "Defender"
+  },
+  {
+   "id": 62,
+   "full_name": "Nicole Anyomi",
+   "known_as": "Nicole Anyomi",
+   "birth_year": 2000,
+   "birth_date": "2000-02-10",
+   "position": "Forward"
+  },
+  {
+   "id": 63,
+   "full_name": "Felicitas Rauch",
+   "known_as": "Felicitas Rauch",
+   "birth_year": 1996,
+   "birth_date": "1996-04-30",
+   "position": "Defender"
+  },
+  {
+   "id": 64,
+   "full_name": "Melanie Leupolz",
+   "known_as": "Melanie Leupolz",
+   "birth_year": 1994,
+   "birth_date": "1994-04-14",
+   "position": "Midfielder"
+  },
+  {
+   "id": 65,
+   "full_name": "Klara Bühl",
+   "known_as": "Klara Bühl",
+   "birth_year": 2000,
+   "birth_date": "2000-12-07",
+   "position": "Forward"
+  },
+  {
+   "id": 66,
+   "full_name": "Lina Magull",
+   "known_as": "Lina Magull",
+   "birth_year": 1994,
+   "birth_date": "1994-08-15",
+   "position": "Midfielder"
+  },
+  {
+   "id": 67,
+   "full_name": "Stina Johannes",
+   "known_as": "Stina Johannes",
+   "birth_year": 2000,
+   "birth_date": "2000-01-23",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 68,
+   "full_name": "Jule Brand",
+   "known_as": "Jule Brand",
+   "birth_year": 2002,
+   "birth_date": "2002-10-16",
+   "position": "Midfielder"
+  },
+  {
+   "id": 69,
+   "full_name": "Sara Doorsoun",
+   "known_as": "Sara Doorsoun",
+   "birth_year": 1991,
+   "birth_date": "1991-11-17",
+   "position": "Defender"
+  },
+  {
+   "id": 70,
+   "full_name": "Cecilie Fiskerstrand",
+   "known_as": "Cecilie Fiskerstrand",
+   "birth_year": 1996,
+   "birth_date": "1996-03-20",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 71,
+   "full_name": "Anja Sønstevold",
+   "known_as": "Anja Sønstevold",
+   "birth_year": 1992,
+   "birth_date": "1992-06-21",
+   "position": "Defender"
+  },
+  {
+   "id": 72,
+   "full_name": "Sara Hørte",
+   "known_as": "Sara Hørte",
+   "birth_year": 2000,
+   "birth_date": "2000-11-24",
+   "position": "Defender"
+  },
+  {
+   "id": 73,
+   "full_name": "Tuva Hansen",
+   "known_as": "Tuva Hansen",
+   "birth_year": 1997,
+   "birth_date": "1997-08-04",
+   "position": "Defender"
+  },
+  {
+   "id": 74,
+   "full_name": "Guro Bergsvand",
+   "known_as": "Guro Bergsvand",
+   "birth_year": 1994,
+   "birth_date": "1994-03-03",
+   "position": "Defender"
+  },
+  {
+   "id": 75,
+   "full_name": "Maren Mjelde",
+   "known_as": "Maren Mjelde",
+   "birth_year": 1989,
+   "birth_date": "1989-11-06",
+   "position": "Defender"
+  },
+  {
+   "id": 76,
+   "full_name": "Ingrid Syrstad Engen",
+   "known_as": "Ingrid Syrstad Engen",
+   "birth_year": 1998,
+   "birth_date": "1998-04-29",
+   "position": "Midfielder"
+  },
+  {
+   "id": 77,
+   "full_name": "Vilde Bøe Risa",
+   "known_as": "Vilde Bøe Risa",
+   "birth_year": 1995,
+   "birth_date": "1995-07-13",
+   "position": "Midfielder"
+  },
+  {
+   "id": 78,
+   "full_name": "Karina Sævik",
+   "known_as": "Karina Sævik",
+   "birth_year": 1996,
+   "birth_date": "1996-03-24",
+   "position": "Forward"
+  },
+  {
+   "id": 79,
+   "full_name": "Caroline Graham Hansen",
+   "known_as": "Caroline Graham Hansen",
+   "birth_year": 1995,
+   "birth_date": "1995-02-18",
+   "position": "Midfielder"
+  },
+  {
+   "id": 80,
+   "full_name": "Guro Reiten",
+   "known_as": "Guro Reiten",
+   "birth_year": 1994,
+   "birth_date": "1994-07-26",
+   "position": "Midfielder"
+  },
+  {
+   "id": 81,
+   "full_name": "Guro Pettersen",
+   "known_as": "Guro Pettersen",
+   "birth_year": 1991,
+   "birth_date": "1991-08-22",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 82,
+   "full_name": "Thea Bjelde",
+   "known_as": "Thea Bjelde",
+   "birth_year": 2000,
+   "birth_date": "2000-06-05",
+   "position": "Midfielder"
+  },
+  {
+   "id": 83,
+   "full_name": "Ada Hegerberg",
+   "known_as": "Ada Hegerberg",
+   "birth_year": 1995,
+   "birth_date": "1995-07-10",
+   "position": "Forward"
+  },
+  {
+   "id": 84,
+   "full_name": "Amalie Eikeland",
+   "known_as": "Amalie Eikeland",
+   "birth_year": 1995,
+   "birth_date": "1995-08-26",
+   "position": "Midfielder"
+  },
+  {
+   "id": 85,
+   "full_name": "Mathilde Harviken",
+   "known_as": "Mathilde Harviken",
+   "birth_year": 2001,
+   "birth_date": "2001-12-29",
+   "position": "Defender"
+  },
+  {
+   "id": 86,
+   "full_name": "Julie Blakstad",
+   "known_as": "Julie Blakstad",
+   "birth_year": 2001,
+   "birth_date": "2001-08-27",
+   "position": "Forward"
+  },
+  {
+   "id": 87,
+   "full_name": "Frida Maanum",
+   "known_as": "Frida Maanum",
+   "birth_year": 1999,
+   "birth_date": "1999-07-16",
+   "position": "Midfielder"
+  },
+  {
+   "id": 88,
+   "full_name": "Marit Bratberg Lund",
+   "known_as": "Marit Bratberg Lund",
+   "birth_year": 1997,
+   "birth_date": "1997-11-07",
+   "position": "Defender"
+  },
+  {
+   "id": 89,
+   "full_name": "Emilie Haavi",
+   "known_as": "Emilie Haavi",
+   "birth_year": 1992,
+   "birth_date": "1992-06-16",
+   "position": "Midfielder"
+  },
+  {
+   "id": 90,
+   "full_name": "Anna Jøsendal",
+   "known_as": "Anna Jøsendal",
+   "birth_year": 2001,
+   "birth_date": "2001-04-29",
+   "position": "Forward"
+  },
+  {
+   "id": 91,
+   "full_name": "Sophie Román Haug",
+   "known_as": "Sophie Román Haug",
+   "birth_year": 1999,
+   "birth_date": "1999-06-04",
+   "position": "Forward"
+  },
+  {
+   "id": 92,
+   "full_name": "Aurora Mikalsen",
+   "known_as": "Aurora Mikalsen",
+   "birth_year": 1996,
+   "birth_date": "1996-03-21",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 93,
+   "full_name": "Ayaka Yamashita",
+   "known_as": "Ayaka Yamashita",
+   "birth_year": 1995,
+   "birth_date": "1995-09-29",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 94,
+   "full_name": "Risa Shimizu",
+   "known_as": "Risa Shimizu",
+   "birth_year": 1996,
+   "birth_date": "1996-06-15",
+   "position": "Defender"
+  },
+  {
+   "id": 95,
+   "full_name": "Moeka Minami",
+   "known_as": "Moeka Minami",
+   "birth_year": 1998,
+   "birth_date": "1998-12-07",
+   "position": "Defender"
+  },
+  {
+   "id": 96,
+   "full_name": "Saki Kumagai",
+   "known_as": "Saki Kumagai",
+   "birth_year": 1990,
+   "birth_date": "1990-10-17",
+   "position": "Defender"
+  },
+  {
+   "id": 97,
+   "full_name": "Shiori Miyake",
+   "known_as": "Shiori Miyake",
+   "birth_year": 1995,
+   "birth_date": "1995-10-13",
+   "position": "Defender"
+  },
+  {
+   "id": 98,
+   "full_name": "Hina Sugita",
+   "known_as": "Hina Sugita",
+   "birth_year": 1997,
+   "birth_date": "1997-01-31",
+   "position": "Midfielder"
+  },
+  {
+   "id": 99,
+   "full_name": "Hinata Miyazawa",
+   "known_as": "Hinata Miyazawa",
+   "birth_year": 1999,
+   "birth_date": "1999-11-28",
+   "position": "Midfielder"
+  },
+  {
+   "id": 100,
+   "full_name": "Hikaru Naomoto",
+   "known_as": "Hikaru Naomoto",
+   "birth_year": 1994,
+   "birth_date": "1994-03-03",
+   "position": "Midfielder"
+  },
+  {
+   "id": 101,
+   "full_name": "Riko Ueki",
+   "known_as": "Riko Ueki",
+   "birth_year": 1999,
+   "birth_date": "1999-07-30",
+   "position": "Forward"
+  },
+  {
+   "id": 102,
+   "full_name": "Fūka Nagano",
+   "known_as": "Fūka Nagano",
+   "birth_year": 1999,
+   "birth_date": "1999-03-09",
+   "position": "Midfielder"
+  },
+  {
+   "id": 103,
+   "full_name": "Mina Tanaka",
+   "known_as": "Mina Tanaka",
+   "birth_year": 1994,
+   "birth_date": "1994-04-28",
+   "position": "Forward"
+  },
+  {
+   "id": 104,
+   "full_name": "Hana Takahashi",
+   "known_as": "Hana Takahashi",
+   "birth_year": 2000,
+   "birth_date": "2000-02-19",
+   "position": "Defender"
+  },
+  {
+   "id": 105,
+   "full_name": "Jun Endō",
+   "known_as": "Jun Endō",
+   "birth_year": 2000,
+   "birth_date": "2000-05-24",
+   "position": "Midfielder"
+  },
+  {
+   "id": 106,
+   "full_name": "Yui Hasegawa",
+   "known_as": "Yui Hasegawa",
+   "birth_year": 1997,
+   "birth_date": "1997-01-29",
+   "position": "Midfielder"
+  },
+  {
+   "id": 107,
+   "full_name": "Aoba Fujino",
+   "known_as": "Aoba Fujino",
+   "birth_year": 2004,
+   "birth_date": "2004-01-27",
+   "position": "Midfielder"
+  },
+  {
+   "id": 108,
+   "full_name": "Honoka Hayashi",
+   "known_as": "Honoka Hayashi",
+   "birth_year": 1998,
+   "birth_date": "1998-05-19",
+   "position": "Midfielder"
+  },
+  {
+   "id": 109,
+   "full_name": "Kiko Seike",
+   "known_as": "Kiko Seike",
+   "birth_year": 1996,
+   "birth_date": "1996-08-08",
+   "position": "Defender"
+  },
+  {
+   "id": 110,
+   "full_name": "Momoko Tanaka",
+   "known_as": "Momoko Tanaka",
+   "birth_year": 2000,
+   "birth_date": "2000-03-17",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 111,
+   "full_name": "Miyabi Moriya",
+   "known_as": "Miyabi Moriya",
+   "birth_year": 1996,
+   "birth_date": "1996-08-22",
+   "position": "Defender"
+  },
+  {
+   "id": 112,
+   "full_name": "Maika Hamano",
+   "known_as": "Maika Hamano",
+   "birth_year": 2004,
+   "birth_date": "2004-05-09",
+   "position": "Forward"
+  },
+  {
+   "id": 113,
+   "full_name": "Chika Hirao",
+   "known_as": "Chika Hirao",
+   "birth_year": 1996,
+   "birth_date": "1996-12-31",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 114,
+   "full_name": "Remina Chiba",
+   "known_as": "Remina Chiba",
+   "birth_year": 1999,
+   "birth_date": "1999-04-30",
+   "position": "Forward"
+  },
+  {
+   "id": 115,
+   "full_name": "Rion Ishikawa",
+   "known_as": "Rion Ishikawa",
+   "birth_year": 2003,
+   "birth_date": "2003-07-04",
+   "position": "Defender"
+  },
+  {
+   "id": 116,
+   "full_name": "Misa Rodríguez",
+   "known_as": "Misa Rodríguez",
+   "birth_year": 1999,
+   "birth_date": "1999-07-22",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 117,
+   "full_name": "Ona Batlle",
+   "known_as": "Ona Batlle",
+   "birth_year": 1999,
+   "birth_date": "1999-06-10",
+   "position": "Defender"
+  },
+  {
+   "id": 118,
+   "full_name": "Teresa Abelleira",
+   "known_as": "Teresa Abelleira",
+   "birth_year": 2000,
+   "birth_date": "2000-01-09",
+   "position": "Midfielder"
+  },
+  {
+   "id": 119,
+   "full_name": "Irene Paredes",
+   "known_as": "Irene Paredes",
+   "birth_year": 1991,
+   "birth_date": "1991-07-04",
+   "position": "Defender"
+  },
+  {
+   "id": 120,
+   "full_name": "Ivana Andrés",
+   "known_as": "Ivana Andrés",
+   "birth_year": 1994,
+   "birth_date": "1994-07-13",
+   "position": "Defender"
+  },
+  {
+   "id": 121,
+   "full_name": "Aitana Bonmatí",
+   "known_as": "Aitana Bonmatí",
+   "birth_year": 1998,
+   "birth_date": "1998-01-18",
+   "position": "Midfielder"
+  },
+  {
+   "id": 122,
+   "full_name": "Irene Guerrero",
+   "known_as": "Irene Guerrero",
+   "birth_year": 1996,
+   "birth_date": "1996-12-12",
+   "position": "Midfielder"
+  },
+  {
+   "id": 123,
+   "full_name": "Mariona Caldentey",
+   "known_as": "Mariona Caldentey",
+   "birth_year": 1996,
+   "birth_date": "1996-03-19",
+   "position": "Forward"
+  },
+  {
+   "id": 124,
+   "full_name": "Esther González",
+   "known_as": "Esther González",
+   "birth_year": 1992,
+   "birth_date": "1992-12-08",
+   "position": "Forward"
+  },
+  {
+   "id": 125,
+   "full_name": "Jenni Hermoso",
+   "known_as": "Jenni Hermoso",
+   "birth_year": 1990,
+   "birth_date": "1990-05-09",
+   "position": "Midfielder"
+  },
+  {
+   "id": 126,
+   "full_name": "Alexia Putellas",
+   "known_as": "Alexia Putellas",
+   "birth_year": 1994,
+   "birth_date": "1994-02-04",
+   "position": "Midfielder"
+  },
+  {
+   "id": 127,
+   "full_name": "Oihane Hernández",
+   "known_as": "Oihane Hernández",
+   "birth_year": 2000,
+   "birth_date": "2000-05-04",
+   "position": "Defender"
+  },
+  {
+   "id": 128,
+   "full_name": "Enith Salón",
+   "known_as": "Enith Salón",
+   "birth_year": 2001,
+   "birth_date": "2001-09-24",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 129,
+   "full_name": "Laia Codina",
+   "known_as": "Laia Codina",
+   "birth_year": 2000,
+   "birth_date": "2000-01-22",
+   "position": "Defender"
+  },
+  {
+   "id": 130,
+   "full_name": "Eva Navarro",
+   "known_as": "Eva Navarro",
+   "birth_year": 2001,
+   "birth_date": "2001-01-27",
+   "position": "Midfielder"
+  },
+  {
+   "id": 131,
+   "full_name": "María Pérez",
+   "known_as": "María Pérez",
+   "birth_year": 2001,
+   "birth_date": "2001-12-24",
+   "position": "Midfielder"
+  },
+  {
+   "id": 132,
+   "full_name": "Alba Redondo",
+   "known_as": "Alba Redondo",
+   "birth_year": 1996,
+   "birth_date": "1996-08-27",
+   "position": "Forward"
+  },
+  {
+   "id": 133,
+   "full_name": "Salma Paralluelo",
+   "known_as": "Salma Paralluelo",
+   "birth_year": 2003,
+   "birth_date": "2003-11-13",
+   "position": "Forward"
+  },
+  {
+   "id": 134,
+   "full_name": "Olga Carmona",
+   "known_as": "Olga Carmona",
+   "birth_year": 2000,
+   "birth_date": "2000-06-12",
+   "position": "Defender"
+  },
+  {
+   "id": 135,
+   "full_name": "Rocío Gálvez",
+   "known_as": "Rocío Gálvez",
+   "birth_year": 1997,
+   "birth_date": "1997-04-15",
+   "position": "Defender"
+  },
+  {
+   "id": 136,
+   "full_name": "Claudia Zornoza",
+   "known_as": "Claudia Zornoza",
+   "birth_year": 1990,
+   "birth_date": "1990-10-20",
+   "position": "Midfielder"
+  },
+  {
+   "id": 137,
+   "full_name": "Athenea del Castillo",
+   "known_as": "Athenea del Castillo",
+   "birth_year": 2000,
+   "birth_date": "2000-10-24",
+   "position": "Midfielder"
+  },
+  {
+   "id": 138,
+   "full_name": "Cata Coll",
+   "known_as": "Cata Coll",
+   "birth_year": 2001,
+   "birth_date": "2001-04-23",
+   "position": "Goalkeeper"
+  },
+  {
+   "id": 139,
+   "full_name": "Miraildes Maciel Mota",
+   "known_as": "Formiga",
+   "birth_year": 1978,
+   "birth_date": null,
+   "position": "Midfielder"
+  },
+  {
+   "id": 140,
+   "full_name": "Cristiane Rozeira de Souza Silva",
+   "known_as": "Cristiane",
+   "birth_year": 1985,
+   "birth_date": null,
+   "position": "Forward"
+  },
+  {
+   "id": 141,
+   "full_name": "Sisleide do Amor Lima",
+   "known_as": "Sissi",
+   "birth_year": 1967,
+   "birth_date": null,
+   "position": "Midfielder"
+  }
+ ],
+ "squads": [
+  {
+   "id": 1,
+   "player_id": 1,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 1,
+   "club": "Flamengo",
+   "caps": 69,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 2,
+   "player_id": 2,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 2,
+   "club": "Levante",
+   "caps": 25,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 3,
+   "player_id": 3,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 3,
+   "club": "Real Madrid",
+   "caps": 21,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 4,
+   "player_id": 4,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 4,
+   "club": "Arsenal",
+   "caps": 82,
+   "goals": 8,
+   "is_captain": 0
+  },
+  {
+   "id": 5,
+   "player_id": 5,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 5,
+   "club": "Corinthians",
+   "caps": 32,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 6,
+   "player_id": 6,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 6,
+   "club": "Corinthians",
+   "caps": 140,
+   "goals": 7,
+   "is_captain": 0
+  },
+  {
+   "id": 7,
+   "player_id": 7,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 7,
+   "club": "Roma",
+   "caps": 106,
+   "goals": 21,
+   "is_captain": 0
+  },
+  {
+   "id": 8,
+   "player_id": 8,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 8,
+   "club": "Benfica",
+   "caps": 14,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 9,
+   "player_id": 9,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 9,
+   "club": "Kansas City Current",
+   "caps": 134,
+   "goals": 58,
+   "is_captain": 0
+  },
+  {
+   "id": 10,
+   "player_id": 10,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 10,
+   "club": "Orlando Pride",
+   "caps": 175,
+   "goals": 115,
+   "is_captain": 1
+  },
+  {
+   "id": 11,
+   "player_id": 11,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 11,
+   "club": "Orlando Pride",
+   "caps": 43,
+   "goals": 12,
+   "is_captain": 0
+  },
+  {
+   "id": 12,
+   "player_id": 12,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 12,
+   "club": "Corinthians",
+   "caps": 16,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 13,
+   "player_id": 13,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 13,
+   "club": "NJ/NY Gotham FC",
+   "caps": 8,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 14,
+   "player_id": 14,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 14,
+   "club": "Madrid CFF",
+   "caps": 10,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 15,
+   "player_id": 15,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 15,
+   "club": "Corinthians",
+   "caps": 8,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 16,
+   "player_id": 16,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 16,
+   "club": "Palmeiras",
+   "caps": 110,
+   "goals": 37,
+   "is_captain": 0
+  },
+  {
+   "id": 17,
+   "player_id": 17,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 17,
+   "club": "Racing Louisville",
+   "caps": 28,
+   "goals": 5,
+   "is_captain": 0
+  },
+  {
+   "id": 18,
+   "player_id": 18,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 18,
+   "club": "Barcelona",
+   "caps": 43,
+   "goals": 6,
+   "is_captain": 0
+  },
+  {
+   "id": 19,
+   "player_id": 19,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 19,
+   "club": "Madrid CFF",
+   "caps": 42,
+   "goals": 6,
+   "is_captain": 0
+  },
+  {
+   "id": 20,
+   "player_id": 20,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 20,
+   "club": "OL Reign",
+   "caps": 20,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 21,
+   "player_id": 21,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 21,
+   "club": "North Carolina Courage",
+   "caps": 33,
+   "goals": 5,
+   "is_captain": 0
+  },
+  {
+   "id": 22,
+   "player_id": 22,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 22,
+   "club": "Santos",
+   "caps": 0,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 23,
+   "player_id": 23,
+   "team_id": 1,
+   "tournament_id": 9,
+   "shirt_number": 23,
+   "club": "Madrid CFF",
+   "caps": 20,
+   "goals": 3,
+   "is_captain": 0
+  },
+  {
+   "id": 24,
+   "player_id": 24,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 1,
+   "club": "Chicago Red Stars",
+   "caps": 90,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 25,
+   "player_id": 25,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 2,
+   "club": "Washington Spirit",
+   "caps": 24,
+   "goals": 3,
+   "is_captain": 0
+  },
+  {
+   "id": 26,
+   "player_id": 26,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 3,
+   "club": "OL Reign",
+   "caps": 29,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 27,
+   "player_id": 27,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 4,
+   "club": "San Diego Wave",
+   "caps": 15,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 28,
+   "player_id": 28,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 5,
+   "club": "NJ/NY Gotham FC",
+   "caps": 157,
+   "goals": 3,
+   "is_captain": 0
+  },
+  {
+   "id": 29,
+   "player_id": 29,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 6,
+   "club": "NJ/NY Gotham FC",
+   "caps": 52,
+   "goals": 15,
+   "is_captain": 0
+  },
+  {
+   "id": 30,
+   "player_id": 30,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 7,
+   "club": "Angel City",
+   "caps": 3,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 31,
+   "player_id": 31,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 8,
+   "club": "Angel City",
+   "caps": 118,
+   "goals": 20,
+   "is_captain": 0
+  },
+  {
+   "id": 32,
+   "player_id": 32,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 9,
+   "club": "Racing Louisville",
+   "caps": 0,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 33,
+   "player_id": 33,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 10,
+   "club": "Lyon",
+   "caps": 128,
+   "goals": 27,
+   "is_captain": 1
+  },
+  {
+   "id": 34,
+   "player_id": 34,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 11,
+   "club": "Portland Thorns",
+   "caps": 29,
+   "goals": 12,
+   "is_captain": 0
+  },
+  {
+   "id": 35,
+   "player_id": 35,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 12,
+   "club": "OL Reign",
+   "caps": 24,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 36,
+   "player_id": 36,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 13,
+   "club": "San Diego Wave",
+   "caps": 206,
+   "goals": 121,
+   "is_captain": 1
+  },
+  {
+   "id": 37,
+   "player_id": 37,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 14,
+   "club": "OL Reign",
+   "caps": 74,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 38,
+   "player_id": 38,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 15,
+   "club": "OL Reign",
+   "caps": 199,
+   "goals": 63,
+   "is_captain": 0
+  },
+  {
+   "id": 39,
+   "player_id": 39,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 16,
+   "club": "OL Reign",
+   "caps": 88,
+   "goals": 24,
+   "is_captain": 0
+  },
+  {
+   "id": 40,
+   "player_id": 40,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 17,
+   "club": "Washington Spirit",
+   "caps": 44,
+   "goals": 3,
+   "is_captain": 0
+  },
+  {
+   "id": 41,
+   "player_id": 41,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 18,
+   "club": "North Carolina Courage",
+   "caps": 14,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 42,
+   "player_id": 42,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 19,
+   "club": "Portland Thorns",
+   "caps": 131,
+   "goals": 24,
+   "is_captain": 0
+  },
+  {
+   "id": 43,
+   "player_id": 43,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 20,
+   "club": "Washington Spirit",
+   "caps": 17,
+   "goals": 2,
+   "is_captain": 0
+  },
+  {
+   "id": 44,
+   "player_id": 44,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 21,
+   "club": "Washington Spirit",
+   "caps": 1,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 45,
+   "player_id": 45,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 22,
+   "club": "NJ/NY Gotham FC",
+   "caps": 51,
+   "goals": 7,
+   "is_captain": 0
+  },
+  {
+   "id": 46,
+   "player_id": 46,
+   "team_id": 2,
+   "tournament_id": 9,
+   "shirt_number": 23,
+   "club": "North Carolina Courage",
+   "caps": 28,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 47,
+   "player_id": 47,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 1,
+   "club": "VfL Wolfsburg",
+   "caps": 40,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 48,
+   "player_id": 48,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 2,
+   "club": "1899 Hoffenheim",
+   "caps": 10,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 49,
+   "player_id": 49,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 3,
+   "club": "VfL Wolfsburg",
+   "caps": 58,
+   "goals": 5,
+   "is_captain": 0
+  },
+  {
+   "id": 50,
+   "player_id": 50,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 4,
+   "club": "Eintracht Frankfurt",
+   "caps": 27,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 51,
+   "player_id": 51,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 5,
+   "club": "VfL Wolfsburg",
+   "caps": 29,
+   "goals": 3,
+   "is_captain": 0
+  },
+  {
+   "id": 52,
+   "player_id": 52,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 6,
+   "club": "VfL Wolfsburg",
+   "caps": 38,
+   "goals": 3,
+   "is_captain": 0
+  },
+  {
+   "id": 53,
+   "player_id": 53,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 7,
+   "club": "Bayern Munich",
+   "caps": 47,
+   "goals": 31,
+   "is_captain": 0
+  },
+  {
+   "id": 54,
+   "player_id": 54,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 8,
+   "club": "Bayern Munich",
+   "caps": 22,
+   "goals": 4,
+   "is_captain": 0
+  },
+  {
+   "id": 55,
+   "player_id": 55,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 9,
+   "club": "VfL Wolfsburg",
+   "caps": 80,
+   "goals": 14,
+   "is_captain": 0
+  },
+  {
+   "id": 56,
+   "player_id": 56,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 10,
+   "club": "Eintracht Frankfurt",
+   "caps": 20,
+   "goals": 12,
+   "is_captain": 0
+  },
+  {
+   "id": 57,
+   "player_id": 57,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 11,
+   "club": "VfL Wolfsburg",
+   "caps": 128,
+   "goals": 62,
+   "is_captain": 1
+  },
+  {
+   "id": 58,
+   "player_id": 58,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 12,
+   "club": "Chelsea",
+   "caps": 6,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 59,
+   "player_id": 59,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 13,
+   "club": "Lyon",
+   "caps": 97,
+   "goals": 17,
+   "is_captain": 0
+  },
+  {
+   "id": 60,
+   "player_id": 60,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 14,
+   "club": "VfL Wolfsburg",
+   "caps": 29,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 61,
+   "player_id": 61,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 15,
+   "club": "Eintracht Frankfurt",
+   "caps": 17,
+   "goals": 2,
+   "is_captain": 0
+  },
+  {
+   "id": 62,
+   "player_id": 62,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 16,
+   "club": "Eintracht Frankfurt",
+   "caps": 16,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 63,
+   "player_id": 63,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 17,
+   "club": "VfL Wolfsburg",
+   "caps": 33,
+   "goals": 4,
+   "is_captain": 0
+  },
+  {
+   "id": 64,
+   "player_id": 64,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 18,
+   "club": "Chelsea",
+   "caps": 78,
+   "goals": 13,
+   "is_captain": 0
+  },
+  {
+   "id": 65,
+   "player_id": 65,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 19,
+   "club": "Bayern Munich",
+   "caps": 35,
+   "goals": 14,
+   "is_captain": 0
+  },
+  {
+   "id": 66,
+   "player_id": 66,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 20,
+   "club": "Bayern Munich",
+   "caps": 72,
+   "goals": 22,
+   "is_captain": 0
+  },
+  {
+   "id": 67,
+   "player_id": 67,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 21,
+   "club": "Eintracht Frankfurt",
+   "caps": 0,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 68,
+   "player_id": 68,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 22,
+   "club": "VfL Wolfsburg",
+   "caps": 32,
+   "goals": 7,
+   "is_captain": 0
+  },
+  {
+   "id": 69,
+   "player_id": 69,
+   "team_id": 3,
+   "tournament_id": 9,
+   "shirt_number": 23,
+   "club": "Eintracht Frankfurt",
+   "caps": 45,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 70,
+   "player_id": 70,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 1,
+   "club": "Lillestrøm",
+   "caps": 44,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 71,
+   "player_id": 71,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 2,
+   "club": "Inter Milan",
+   "caps": 28,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 72,
+   "player_id": 72,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 3,
+   "club": "Rosenborg",
+   "caps": 4,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 73,
+   "player_id": 73,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 4,
+   "club": "Bayern Munich",
+   "caps": 27,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 74,
+   "player_id": 74,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 5,
+   "club": "Brighton & Hove Albion",
+   "caps": 22,
+   "goals": 4,
+   "is_captain": 0
+  },
+  {
+   "id": 75,
+   "player_id": 75,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 6,
+   "club": "Chelsea",
+   "caps": 165,
+   "goals": 20,
+   "is_captain": 1
+  },
+  {
+   "id": 76,
+   "player_id": 76,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 7,
+   "club": "Barcelona",
+   "caps": 59,
+   "goals": 6,
+   "is_captain": 0
+  },
+  {
+   "id": 77,
+   "player_id": 77,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 8,
+   "club": "Manchester United",
+   "caps": 60,
+   "goals": 2,
+   "is_captain": 0
+  },
+  {
+   "id": 78,
+   "player_id": 78,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 9,
+   "club": "Vålerenga",
+   "caps": 38,
+   "goals": 6,
+   "is_captain": 0
+  },
+  {
+   "id": 79,
+   "player_id": 79,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 10,
+   "club": "Barcelona",
+   "caps": 98,
+   "goals": 44,
+   "is_captain": 0
+  },
+  {
+   "id": 80,
+   "player_id": 80,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 11,
+   "club": "Chelsea",
+   "caps": 80,
+   "goals": 17,
+   "is_captain": 0
+  },
+  {
+   "id": 81,
+   "player_id": 81,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 12,
+   "club": "Vålerenga",
+   "caps": 7,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 82,
+   "player_id": 82,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 13,
+   "club": "Vålerenga",
+   "caps": 7,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 83,
+   "player_id": 83,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 14,
+   "club": "Lyon",
+   "caps": 76,
+   "goals": 43,
+   "is_captain": 0
+  },
+  {
+   "id": 84,
+   "player_id": 84,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 15,
+   "club": "Reading",
+   "caps": 45,
+   "goals": 3,
+   "is_captain": 0
+  },
+  {
+   "id": 85,
+   "player_id": 85,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 16,
+   "club": "Rosenborg",
+   "caps": 9,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 86,
+   "player_id": 86,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 17,
+   "club": "BK Häcken",
+   "caps": 29,
+   "goals": 3,
+   "is_captain": 0
+  },
+  {
+   "id": 87,
+   "player_id": 87,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 18,
+   "club": "Arsenal",
+   "caps": 65,
+   "goals": 11,
+   "is_captain": 0
+  },
+  {
+   "id": 88,
+   "player_id": 88,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 19,
+   "club": "Brann",
+   "caps": 5,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 89,
+   "player_id": 89,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 20,
+   "club": "Roma",
+   "caps": 97,
+   "goals": 16,
+   "is_captain": 0
+  },
+  {
+   "id": 90,
+   "player_id": 90,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 21,
+   "club": "Rosenborg",
+   "caps": 8,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 91,
+   "player_id": 91,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 22,
+   "club": "Roma",
+   "caps": 8,
+   "goals": 5,
+   "is_captain": 0
+  },
+  {
+   "id": 92,
+   "player_id": 92,
+   "team_id": 4,
+   "tournament_id": 9,
+   "shirt_number": 23,
+   "club": "Brann",
+   "caps": 9,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 93,
+   "player_id": 93,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 1,
+   "club": "INAC Kobe Leonessa",
+   "caps": 55,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 94,
+   "player_id": 94,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 2,
+   "club": "West Ham United",
+   "caps": 59,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 95,
+   "player_id": 95,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 3,
+   "club": "Roma",
+   "caps": 31,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 96,
+   "player_id": 96,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 4,
+   "club": "Bayern Munich",
+   "caps": 133,
+   "goals": 3,
+   "is_captain": 1
+  },
+  {
+   "id": 97,
+   "player_id": 97,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 5,
+   "club": "INAC Kobe Leonessa",
+   "caps": 35,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 98,
+   "player_id": 98,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 6,
+   "club": "Portland Thorns",
+   "caps": 35,
+   "goals": 2,
+   "is_captain": 0
+  },
+  {
+   "id": 99,
+   "player_id": 99,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 7,
+   "club": "MyNavi Sendai",
+   "caps": 20,
+   "goals": 4,
+   "is_captain": 0
+  },
+  {
+   "id": 100,
+   "player_id": 100,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 8,
+   "club": "Urawa Reds",
+   "caps": 31,
+   "goals": 2,
+   "is_captain": 0
+  },
+  {
+   "id": 101,
+   "player_id": 101,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 9,
+   "club": "Tokyo Verdy Beleza",
+   "caps": 17,
+   "goals": 8,
+   "is_captain": 0
+  },
+  {
+   "id": 102,
+   "player_id": 102,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 10,
+   "club": "Liverpool",
+   "caps": 30,
+   "goals": 2,
+   "is_captain": 0
+  },
+  {
+   "id": 103,
+   "player_id": 103,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 11,
+   "club": "INAC Kobe Leonessa",
+   "caps": 62,
+   "goals": 23,
+   "is_captain": 0
+  },
+  {
+   "id": 104,
+   "player_id": 104,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 12,
+   "club": "Urawa Reds",
+   "caps": 13,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 105,
+   "player_id": 105,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 13,
+   "club": "Angel City",
+   "caps": 31,
+   "goals": 3,
+   "is_captain": 0
+  },
+  {
+   "id": 106,
+   "player_id": 106,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 14,
+   "club": "Manchester City",
+   "caps": 63,
+   "goals": 14,
+   "is_captain": 0
+  },
+  {
+   "id": 107,
+   "player_id": 107,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 15,
+   "club": "Tokyo Verdy Beleza",
+   "caps": 7,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 108,
+   "player_id": 108,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 16,
+   "club": "West Ham United",
+   "caps": 22,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 109,
+   "player_id": 109,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 17,
+   "club": "Urawa Reds",
+   "caps": 7,
+   "goals": 2,
+   "is_captain": 0
+  },
+  {
+   "id": 110,
+   "player_id": 110,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 18,
+   "club": "Tokyo Verdy Beleza",
+   "caps": 5,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 111,
+   "player_id": 111,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 19,
+   "club": "INAC Kobe Leonessa",
+   "caps": 0,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 112,
+   "player_id": 112,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 20,
+   "club": "Hammarby IF",
+   "caps": 4,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 113,
+   "player_id": 113,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 21,
+   "club": "Albirex Niigata",
+   "caps": 4,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 114,
+   "player_id": 114,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 22,
+   "club": "JEF United Chiba",
+   "caps": 4,
+   "goals": 2,
+   "is_captain": 0
+  },
+  {
+   "id": 115,
+   "player_id": 115,
+   "team_id": 5,
+   "tournament_id": 9,
+   "shirt_number": 23,
+   "club": "Urawa Reds",
+   "caps": 1,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 116,
+   "player_id": 116,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 1,
+   "club": "Real Madrid",
+   "caps": 12,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 117,
+   "player_id": 117,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 2,
+   "club": "Manchester United",
+   "caps": 28,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 118,
+   "player_id": 118,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 3,
+   "club": "Real Madrid",
+   "caps": 14,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 119,
+   "player_id": 119,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 4,
+   "club": "Barcelona",
+   "caps": 90,
+   "goals": 11,
+   "is_captain": 0
+  },
+  {
+   "id": 120,
+   "player_id": 120,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 5,
+   "club": "Real Madrid",
+   "caps": 46,
+   "goals": 0,
+   "is_captain": 1
+  },
+  {
+   "id": 121,
+   "player_id": 121,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 6,
+   "club": "Barcelona",
+   "caps": 46,
+   "goals": 16,
+   "is_captain": 0
+  },
+  {
+   "id": 122,
+   "player_id": 122,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 7,
+   "club": "Atlético Madrid",
+   "caps": 22,
+   "goals": 4,
+   "is_captain": 0
+  },
+  {
+   "id": 123,
+   "player_id": 123,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 8,
+   "club": "Barcelona",
+   "caps": 54,
+   "goals": 19,
+   "is_captain": 0
+  },
+  {
+   "id": 124,
+   "player_id": 124,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 9,
+   "club": "Real Madrid",
+   "caps": 35,
+   "goals": 23,
+   "is_captain": 0
+  },
+  {
+   "id": 125,
+   "player_id": 125,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 10,
+   "club": "Pachuca",
+   "caps": 97,
+   "goals": 48,
+   "is_captain": 0
+  },
+  {
+   "id": 126,
+   "player_id": 126,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 11,
+   "club": "Barcelona",
+   "caps": 100,
+   "goals": 27,
+   "is_captain": 0
+  },
+  {
+   "id": 127,
+   "player_id": 127,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 12,
+   "club": "Athletic Bilbao",
+   "caps": 7,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 128,
+   "player_id": 128,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 13,
+   "club": "Valencia",
+   "caps": 2,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 129,
+   "player_id": 129,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 14,
+   "club": "Barcelona",
+   "caps": 3,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 130,
+   "player_id": 130,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 15,
+   "club": "Atlético Madrid",
+   "caps": 8,
+   "goals": 2,
+   "is_captain": 0
+  },
+  {
+   "id": 131,
+   "player_id": 131,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 16,
+   "club": "Barcelona",
+   "caps": 2,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 132,
+   "player_id": 132,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 17,
+   "club": "Levante",
+   "caps": 26,
+   "goals": 11,
+   "is_captain": 0
+  },
+  {
+   "id": 133,
+   "player_id": 133,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 18,
+   "club": "Barcelona",
+   "caps": 6,
+   "goals": 5,
+   "is_captain": 0
+  },
+  {
+   "id": 134,
+   "player_id": 134,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 19,
+   "club": "Real Madrid",
+   "caps": 22,
+   "goals": 1,
+   "is_captain": 0
+  },
+  {
+   "id": 135,
+   "player_id": 135,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 20,
+   "club": "Real Madrid",
+   "caps": 8,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 136,
+   "player_id": 136,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 21,
+   "club": "Real Madrid",
+   "caps": 10,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 137,
+   "player_id": 137,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 22,
+   "club": "Real Madrid",
+   "caps": 25,
+   "goals": 6,
+   "is_captain": 0
+  },
+  {
+   "id": 138,
+   "player_id": 138,
+   "team_id": 6,
+   "tournament_id": 9,
+   "shirt_number": 23,
+   "club": "Barcelona",
+   "caps": 0,
+   "goals": 0,
+   "is_captain": 0
+  },
+  {
+   "id": 139,
+   "player_id": 10,
+   "team_id": 1,
+   "tournament_id": 4,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 140,
+   "player_id": 10,
+   "team_id": 1,
+   "tournament_id": 5,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 141,
+   "player_id": 10,
+   "team_id": 1,
+   "tournament_id": 6,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 142,
+   "player_id": 10,
+   "team_id": 1,
+   "tournament_id": 7,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 143,
+   "player_id": 10,
+   "team_id": 1,
+   "tournament_id": 8,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 144,
+   "player_id": 139,
+   "team_id": 1,
+   "tournament_id": 2,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 145,
+   "player_id": 139,
+   "team_id": 1,
+   "tournament_id": 3,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 146,
+   "player_id": 139,
+   "team_id": 1,
+   "tournament_id": 4,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 147,
+   "player_id": 139,
+   "team_id": 1,
+   "tournament_id": 5,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 148,
+   "player_id": 139,
+   "team_id": 1,
+   "tournament_id": 6,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 149,
+   "player_id": 139,
+   "team_id": 1,
+   "tournament_id": 7,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 150,
+   "player_id": 139,
+   "team_id": 1,
+   "tournament_id": 8,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 151,
+   "player_id": 140,
+   "team_id": 1,
+   "tournament_id": 5,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 152,
+   "player_id": 140,
+   "team_id": 1,
+   "tournament_id": 6,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 153,
+   "player_id": 140,
+   "team_id": 1,
+   "tournament_id": 7,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 154,
+   "player_id": 140,
+   "team_id": 1,
+   "tournament_id": 8,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 155,
+   "player_id": 141,
+   "team_id": 1,
+   "tournament_id": 2,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  },
+  {
+   "id": 156,
+   "player_id": 141,
+   "team_id": 1,
+   "tournament_id": 3,
+   "shirt_number": null,
+   "club": null,
+   "caps": null,
+   "goals": null,
+   "is_captain": 0
+  }
+ ],
+ "player_awards": [],
+ "player_clubs": []
+}
