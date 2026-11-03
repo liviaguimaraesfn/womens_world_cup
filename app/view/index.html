@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Archive of every Women's World Cup squad, team and stadium from 1991 to 2023.">
+  <meta name="description" content="Archive of Women's World Cup teams, squads and results from 1991 to 2023: Brazil, United States, Germany, Norway, Japan and Spain.">
   <title>Women's World Cup Archive</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -11,7 +11,6 @@
 </head>
 <body>
 
-  <!-- Navbar: burger menu on every screen size (no navbar-expand-* class) -->
   <nav class="navbar navbar-dark site-nav sticky-top">
     <div class="container-fluid page-wrap">
       <a class="navbar-brand fw-bold" href="/">WWC Archive</a>
@@ -23,50 +22,75 @@
       </button>
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/" aria-current="page">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#teams">Teams</a></li>
-          <li class="nav-item"><a class="nav-link" href="#players">Players</a></li>
+          <li class="nav-item"><a class="nav-link" href="#history">Tournaments</a></li>
+          <li class="nav-item"><a class="nav-link" href="players.html">Players</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Hero -->
   <header class="hero text-center text-white">
     <h1 class="display-5 fw-bold">Women's World Cup Archive</h1>
-    <p class="lead mb-4">Every squad, every tournament, 1991 to 2023.</p>
-    <a href="team.html?code=BRA" class="btn btn-light btn-lg">View teams</a>
+    <p class="lead mb-4">Nine tournaments, from 1991 to 2023. Explore the history and the 2023 squads of Brazil, the United States, Germany, Norway, Japan and Spain.</p>
+    <a href="#teams" class="btn btn-light btn-lg me-2 mb-2">Browse teams</a>
+    <a href="players.html" class="btn btn-outline-light btn-lg mb-2">Search 2023 players</a>
   </header>
 
-  <!-- Main content: wide side borders come from .page-wrap + .content-area -->
   <main class="page-wrap content-area py-4 py-md-5">
 
+    <div id="error" class="alert alert-danger d-none" role="alert"></div>
+
+    <!-- Teams: filled in by home.js from /api/teams -->
+    <section id="teams" aria-labelledby="teams-title">
+      <h2 class="h3 mb-1" id="teams-title">Teams</h2>
+      <p class="text-muted mb-4">Choose a team to see its tournament-by-tournament history and every player in its squads.</p>
+      <div class="row g-4" id="teams-list">
+        <p class="text-muted">Loading teams...</p>
+      </div>
+    </section>
+
+    <!-- Tournaments: filled in by home.js from /api/tournaments -->
+    <section id="history" class="mt-5" aria-labelledby="history-title">
+      <h2 class="h3 mb-1" id="history-title">Every tournament</h2>
+      <p class="text-muted mb-3">Hosts, champions and runners-up of all nine editions.</p>
+      <div class="table-responsive">
+        <table class="table table-striped align-middle">
+          <thead>
+            <tr><th scope="col">Year</th><th scope="col">Host</th><th scope="col">Winner</th><th scope="col">Runner-up</th></tr>
+          </thead>
+          <tbody id="tournaments-body"></tbody>
+        </table>
+      </div>
+    </section>
+
     <!-- Image cards: 1 column on phones, 2 columns from 768px -->
-    <section aria-labelledby="explore-title">
+    <section class="mt-5" aria-labelledby="explore-title">
       <h2 class="h3 mb-4" id="explore-title">Explore</h2>
       <div class="row g-4">
 
-        <div class="col-12 col-md-6" id="teams">
+        <div class="col-12 col-md-6">
           <div class="card h-100 shadow-sm">
             <img src="images/teams.jpg" class="card-img-top img-teams"
                  alt="Brazil national team squad and staff posing together on the pitch">
             <div class="card-body d-flex flex-column">
-              <h3 class="h5 card-title">Teams</h3>
-              <p class="card-text">Browse every nation that has played at a Women's World Cup.</p>
-              <a href="team.html?code=BRA" class="btn btn-primary mt-auto align-self-start">View teams</a>
+              <h3 class="h5 card-title">Team histories</h3>
+              <p class="card-text">See how each nation did at every World Cup, from group stage to champions.</p>
+              <a href="#teams" class="btn btn-primary mt-auto align-self-start">View teams</a>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-6" id="players">
+        <div class="col-12 col-md-6">
           <div class="card h-100 shadow-sm">
             <img src="images/players.jpg" class="card-img-top img-players"
                  alt="A Brazil player in a yellow kit striking a football during a match">
             <div class="card-body d-flex flex-column">
-              <h3 class="h5 card-title">Players</h3>
-              <p class="card-text">Search players, squads and top scorers from 1991 onwards.</p>
-              <a href="#" class="btn btn-primary mt-auto align-self-start">View players</a>
+              <h3 class="h5 card-title">2023 players</h3>
+              <p class="card-text">Search all 138 squad players by team, position, club or name.</p>
+              <a href="players.html" class="btn btn-primary mt-auto align-self-start">View players</a>
             </div>
           </div>
         </div>
@@ -74,17 +98,16 @@
       </div>
     </section>
 
-    <!-- Feature cards: 1 column on phones, 3 across from 768px -->
     <section id="about" class="mt-5" aria-labelledby="about-title">
-      <h2 class="h3 mb-4" id="about-title">What you will be able to do</h2>
+      <h2 class="h3 mb-4" id="about-title">Coming next</h2>
       <div class="row g-4">
 
         <div class="col-12 col-md-4">
           <div class="card h-100 feature-card">
             <div class="card-body">
               <div class="feature-icon" aria-hidden="true">🔍</div>
-              <h3 class="h5 card-title">Search and filter</h3>
-              <p class="card-text mb-0">Find results by year, host, team, stadium or top scorer.</p>
+              <h3 class="h5 card-title">More search and filters</h3>
+              <p class="card-text mb-0">Find results by host, stadium or top scorer.</p>
             </div>
           </div>
         </div>
@@ -94,7 +117,7 @@
             <div class="card-body">
               <div class="feature-icon" aria-hidden="true">⭐</div>
               <h3 class="h5 card-title">Favourites and wishlist</h3>
-              <p class="card-text mb-0">Save teams, players and stadiums you want to visit.</p>
+              <p class="card-text mb-0">Log in to save teams, players and stadiums you want to visit.</p>
             </div>
           </div>
         </div>
@@ -119,10 +142,12 @@
     <small class="d-block mb-1">
       Photos: Palácio do Planalto (<a class="text-white" href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>);
       Amerpear (<a class="text-white" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>),
-      via Wikimedia Commons. See <code>images/credits.txt</code>.
+      via Wikimedia Commons. See <a class="text-white" href="images/credits.txt">image credits</a>.
     </small>
   </footer>
 
   <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="common.js"></script>
+  <script src="home.js"></script>
 </body>
 </html>

@@ -1,4 +1,3 @@
 node_modules/
-/app/config/mysql.js
-.DS_Store
+app/config/mysql.js
 .env

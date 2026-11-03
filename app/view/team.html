@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Team - Women's World Cup Archive</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 </head>
@@ -21,13 +22,15 @@
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link active" href="team.html?code=BRA">Teams</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/#teams" aria-current="page">Teams</a></li>
+          <li class="nav-item"><a class="nav-link" href="/#history">Tournaments</a></li>
+          <li class="nav-item"><a class="nav-link" href="players.html">Players</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="hero text-center text-white">
+  <header class="hero hero-team text-center text-white">
     <h1 class="display-5 fw-bold" id="team-name">Loading...</h1>
     <p class="lead mb-0" id="team-sub"></p>
   </header>
@@ -36,12 +39,18 @@
 
     <div id="error" class="alert alert-danger d-none" role="alert"></div>
 
-    <section aria-labelledby="history-title">
+    <section aria-labelledby="overview-title">
+      <h2 class="h3 mb-3" id="overview-title">Overview</h2>
+      <div class="row g-3 mb-3" id="facts"></div>
+      <p class="mb-0" id="team-summary"></p>
+    </section>
+
+    <section class="mt-5" aria-labelledby="history-title">
       <h2 class="h3 mb-3" id="history-title">World Cup history</h2>
       <div class="table-responsive">
         <table class="table table-striped align-middle">
           <thead>
-            <tr><th>Year</th><th>Host</th><th>Result</th><th>Winner</th></tr>
+            <tr><th scope="col">Year</th><th scope="col">Host</th><th scope="col">Result</th><th scope="col">Winner</th><th scope="col">Runner-up</th></tr>
           </thead>
           <tbody id="history-body"></tbody>
         </table>
@@ -50,15 +59,32 @@
 
     <section class="mt-5" aria-labelledby="players-title">
       <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2 mb-3">
-        <h2 class="h3 mb-0" id="players-title">Players</h2>
-        <div>
-          <label for="year-filter" class="visually-hidden">Filter by tournament year</label>
-          <select id="year-filter" class="form-select">
-            <option value="">All tournaments</option>
-          </select>
+        <h2 class="h3 mb-0" id="players-title" aria-live="polite">Players</h2>
+        <div class="d-flex flex-column flex-sm-row gap-2">
+          <div>
+            <label for="year-filter" class="visually-hidden">Filter by tournament year</label>
+            <select id="year-filter" class="form-select">
+              <option value="">All tournaments</option>
+            </select>
+          </div>
+          <div>
+            <label for="position-filter" class="visually-hidden">Filter by position</label>
+            <select id="position-filter" class="form-select">
+              <option value="">All positions</option>
+              <option>Goalkeeper</option>
+              <option>Defender</option>
+              <option>Midfielder</option>
+              <option>Forward</option>
+            </select>
+          </div>
         </div>
       </div>
-      <div class="row g-3" id="players-list"></div>
+      <div id="players-list"></div>
+    </section>
+
+    <section class="mt-5" aria-labelledby="others-title">
+      <h2 class="h5 mb-3" id="others-title">Other teams</h2>
+      <div class="d-flex flex-wrap gap-2" id="other-teams"></div>
     </section>
 
   </main>
@@ -68,6 +94,7 @@
   </footer>
 
   <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="common.js"></script>
   <script src="team.js"></script>
 </body>
 </html>
