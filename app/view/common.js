@@ -4,7 +4,7 @@ const $ = (id) => document.getElementById(id);
 const SITE_NAME = "Women's World Cup Database Museum";
 
 const MENU = [
-  ['home', 'Home', '/'],
+  ['home', 'Home', 'index.html'],
   ['teams', 'Teams', 'teams.html'],
   ['tournaments', 'Tournaments', 'tournaments.html'],
   ['players', 'Players', 'players.html'],
@@ -33,7 +33,7 @@ function renderLayout(active) {
   const wrap = el('div', 'container-fluid page-wrap');
 
   const brand = el('a', 'navbar-brand fw-bold', SITE_NAME);
-  brand.href = '/';
+  brand.href = 'index.html';
 
   const toggler = el('button', 'navbar-toggler');
   toggler.type = 'button';
