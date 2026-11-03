@@ -12,12 +12,21 @@ function teamCell(p) {
   return wrap;
 }
 
+// Full name (name and surname) first; the name she is known by underneath if different
 function playerCell(p) {
   const wrap = el('span');
-  wrap.append(el('strong', null, p.known_as));
+  wrap.append(el('strong', null, p.full_name));
   if (p.is_captain) wrap.append(el('span', 'captain-tag', 'Captain'));
-  if (p.full_name !== p.known_as) wrap.append(el('div', 'player-meta', p.full_name));
+  if (p.known_as !== p.full_name) wrap.append(el('div', 'player-meta', `Known as ${p.known_as}`));
   return wrap;
+}
+
+// A bulleted list, or a short "none recorded" note when there is nothing to show
+function listCell(items) {
+  if (!items || items.length === 0) return el('span', 'none', 'None recorded yet');
+  const ul = el('ul', 'mini-list');
+  for (const item of items) ul.append(el('li', null, item));
+  return ul;
 }
 
 function renderPlayers(players) {
@@ -32,6 +41,8 @@ function renderPlayers(players) {
       cell(p.year),
       cell(p.position),
       cell(formatDate(p.birth_date) || p.birth_year || ''),
+      cell(listCell(p.awards)),
+      cell(listCell(p.past_clubs)),
       cell(p.club || ''),
       cell(p.caps ?? ''),
       cell(p.goals ?? '')

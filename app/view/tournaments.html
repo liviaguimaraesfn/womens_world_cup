@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Every Women's World Cup from 1991 to 2023: host country, winner and runner-up.">
+  <title>Tournaments - Women's World Cup Database Museum</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
+  <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body data-page="tournaments">
+  <div id="site-nav"></div>
+
+  <header class="hero text-center text-white">
+    <h1 class="display-5 fw-bold">Tournaments</h1>
+    <p class="lead mb-0">Every Women's World Cup edition, and the country that hosted it.</p>
+  </header>
+
+  <main class="page-wrap content-area py-4 py-md-5">
+    <div id="error" class="alert alert-danger d-none" role="alert"></div>
+    <section aria-labelledby="history-title">
+      <h2 class="h3 mb-1" id="history-title">All editions, 1991 to 2023</h2>
+      <p class="text-muted mb-3">Newest first. Click a champion or runner-up that is in this museum to open its team page.</p>
+      <div class="table-responsive">
+        <table class="table table-striped align-middle">
+          <thead>
+            <tr><th scope="col">Year</th><th scope="col">Host country</th><th scope="col">Winner</th><th scope="col">Runner-up</th></tr>
+          </thead>
+          <tbody id="tournaments-body"></tbody>
+        </table>
+      </div>
+      <p class="curiosity mt-4 mb-0"><strong>Next up: 2027, Brazil.</strong> The first Women's World Cup to be played in South America.</p>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="common.js"></script>
+  <script src="tournaments.js"></script>
+</body>
+</html>

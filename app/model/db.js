@@ -17,18 +17,29 @@ const POSITION_ORDER = `FIELD(p.position, 'Goalkeeper', 'Defender', 'Midfielder'
 
 const PLAYER_COLUMNS = `p.id, p.known_as, p.full_name, p.birth_year, p.birth_date, p.position,
                         t.code AS team_code, t.name AS team_name,
-                        tr.year, s.shirt_number, s.club, s.caps, s.goals, s.is_captain`;
+                        tr.year, s.shirt_number, s.club, s.caps, s.goals, s.is_captain,
+                        (SELECT GROUP_CONCAT(
+                                  CONCAT(a.award, IF(a.year IS NULL, '', CONCAT(' (', a.year, ')')))
+                                  ORDER BY a.year, a.id SEPARATOR '||')
+                           FROM player_awards a WHERE a.player_id = p.id) AS awards,
+                        (SELECT GROUP_CONCAT(
+                                  CONCAT(c.club, IF(c.years IS NULL, '', CONCAT(' (', c.years, ')')))
+                                  ORDER BY c.sort_order, c.id SEPARATOR '||')
+                           FROM player_clubs c WHERE c.player_id = p.id) AS past_clubs`;
 
 const PLAYER_JOINS = `FROM squads s
                       JOIN players p      ON p.id  = s.player_id
                       JOIN teams t        ON t.id  = s.team_id
                       JOIN tournaments tr ON tr.id = s.tournament_id`;
 
-// MySQL returns BOOLEAN as 0/1 and DATE as a JS Date; make both friendly for JSON
+// MySQL returns BOOLEAN as 0/1 and DATE as a JS Date; make both friendly for JSON.
+// Awards and past clubs come back as one '||'-joined string; turn them into arrays.
 function cleanPlayer(row) {
   return {
     ...row,
     is_captain: Boolean(row.is_captain),
+    awards: row.awards ? row.awards.split('||') : [],
+    past_clubs: row.past_clubs ? row.past_clubs.split('||') : [],
     birth_date: row.birth_date ? row.birth_date.toISOString().slice(0, 10) : null
   };
 }

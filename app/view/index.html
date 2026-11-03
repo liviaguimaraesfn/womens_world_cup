@@ -3,72 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Archive of Women's World Cup teams, squads and results from 1991 to 2023: Brazil, United States, Germany, Norway, Japan and Spain.">
-  <title>Women's World Cup Archive</title>
+  <meta name="description" content="Explore the history of the Women's World Cup from 1991 to 2023, with the teams and 2023 squads of Brazil, the United States, Germany, Norway, Japan and Spain.">
+  <title>Women's World Cup Database Museum</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 </head>
-<body>
-
-  <nav class="navbar navbar-dark site-nav sticky-top">
-    <div class="container-fluid page-wrap">
-      <a class="navbar-brand fw-bold" href="/">WWC Archive</a>
-      <button class="navbar-toggler" type="button"
-              data-bs-toggle="collapse" data-bs-target="#mainNav"
-              aria-controls="mainNav" aria-expanded="false"
-              aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="mainNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="/" aria-current="page">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#teams">Teams</a></li>
-          <li class="nav-item"><a class="nav-link" href="#history">Tournaments</a></li>
-          <li class="nav-item"><a class="nav-link" href="players.html">Players</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<body data-page="home">
+  <div id="site-nav"></div>
 
   <header class="hero text-center text-white">
-    <h1 class="display-5 fw-bold">Women's World Cup Archive</h1>
-    <p class="lead mb-4">Nine tournaments, from 1991 to 2023. Explore the history and the 2023 squads of Brazil, the United States, Germany, Norway, Japan and Spain.</p>
-    <a href="#teams" class="btn btn-light btn-lg me-2 mb-2">Browse teams</a>
+    <p class="hero-tagline">Tournaments from 1991 to 2023, ready for 2027!</p>
+    <h1 class="display-5 fw-bold">Women's World Cup Museum</h1>
+    <p class="lead mb-4">Explore, discover, and learn about the history of the Women's World Cup, how it was created, and each team's squad players.</p>
+    <a href="teams.html" class="btn btn-light btn-lg me-2 mb-2">Browse teams</a>
     <a href="players.html" class="btn btn-outline-light btn-lg mb-2">Search 2023 players</a>
   </header>
 
   <main class="page-wrap content-area py-4 py-md-5">
 
-    <div id="error" class="alert alert-danger d-none" role="alert"></div>
+    <section aria-labelledby="origin-title">
+      <h2 class="h3 mb-3" id="origin-title">How the Women's World Cup was born</h2>
+      <p>Women have played organised football for well over a century, but for decades the game was held back by bans and a lack of support. Unofficial world tournaments for women were played in Italy in 1970 and Mexico in 1971, showing that crowds and players were ready for a global competition.</p>
+      <p>FIFA tested the idea with an invitational tournament in China in 1988. Its success led to the first official FIFA Women's World Cup, played in China in 1991 with 12 teams. The United States won it, beating Norway 2-1 in the final.</p>
+      <p class="mb-0">Since then the tournament has been played every four years and has kept growing: 12 teams in 1991 and 1995, 16 from 1999 to 2011, 24 in 2015 and 2019, and 32 in 2023.</p>
+    </section>
 
-    <!-- Teams: filled in by home.js from /api/teams -->
-    <section id="teams" aria-labelledby="teams-title">
-      <h2 class="h3 mb-1" id="teams-title">Teams</h2>
-      <p class="text-muted mb-4">Choose a team to see its tournament-by-tournament history and every player in its squads.</p>
-      <div class="row g-4" id="teams-list">
-        <p class="text-muted">Loading teams...</p>
+    <section class="mt-5" aria-labelledby="history-title">
+      <h2 class="h3 mb-3" id="history-title">A short history</h2>
+      <ul class="timeline">
+        <li><span class="year">1991, China.</span> The first edition. The United States are the first world champions.</li>
+        <li><span class="year">1995, Sweden.</span> Norway win the title and Germany reach the final for the first time.</li>
+        <li><span class="year">1999, United States.</span> The final at the Rose Bowl draws a crowd of more than 90,000. The hosts beat China on penalties.</li>
+        <li><span class="year">2003, United States.</span> Moved from China because of the SARS outbreak. Germany win their first title.</li>
+        <li><span class="year">2007, China.</span> Germany retain the trophy. Brazil's Marta wins the Golden Ball and Golden Boot.</li>
+        <li><span class="year">2011, Germany.</span> Japan beat the United States on penalties to become the first Asian world champions.</li>
+        <li><span class="year">2015, Canada.</span> The United States win a third title with a 5-2 victory over Japan.</li>
+        <li><span class="year">2019, France.</span> The United States defend their title, beating the Netherlands 2-0.</li>
+        <li><span class="year">2023, Australia and New Zealand.</span> The first 32-team edition and the first held in two countries. Spain win their first title.</li>
+        <li><span class="year">2027, Brazil.</span> The first Women's World Cup in South America.</li>
+      </ul>
+    </section>
+
+    <section class="mt-5" aria-labelledby="curiosities-title">
+      <h2 class="h3 mb-3" id="curiosities-title">Curiosities</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-4"><p class="curiosity mb-0"><strong>Four-time champions.</strong> The United States have won the most titles: 1991, 1999, 2015 and 2019.</p></div>
+        <div class="col-12 col-md-4"><p class="curiosity mb-0"><strong>Marta's record.</strong> Brazil's Marta is the all-time top scorer at the Women's World Cup, with 17 goals.</p></div>
+        <div class="col-12 col-md-4"><p class="curiosity mb-0"><strong>Five champion nations.</strong> Only the United States, Germany, Norway, Japan and Spain have won the tournament so far.</p></div>
       </div>
     </section>
 
-    <!-- Tournaments: filled in by home.js from /api/tournaments -->
-    <section id="history" class="mt-5" aria-labelledby="history-title">
-      <h2 class="h3 mb-1" id="history-title">Every tournament</h2>
-      <p class="text-muted mb-3">Hosts, champions and runners-up of all nine editions.</p>
-      <div class="table-responsive">
-        <table class="table table-striped align-middle">
-          <thead>
-            <tr><th scope="col">Year</th><th scope="col">Host</th><th scope="col">Winner</th><th scope="col">Runner-up</th></tr>
-          </thead>
-          <tbody id="tournaments-body"></tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- Image cards: 1 column on phones, 2 columns from 768px -->
     <section class="mt-5" aria-labelledby="explore-title">
-      <h2 class="h3 mb-4" id="explore-title">Explore</h2>
+      <h2 class="h3 mb-4" id="explore-title">Explore the museum</h2>
       <div class="row g-4">
 
         <div class="col-12 col-md-6">
@@ -76,9 +63,9 @@
             <img src="images/teams.jpg" class="card-img-top img-teams"
                  alt="Brazil national team squad and staff posing together on the pitch">
             <div class="card-body d-flex flex-column">
-              <h3 class="h5 card-title">Team histories</h3>
-              <p class="card-text">See how each nation did at every World Cup, from group stage to champions.</p>
-              <a href="#teams" class="btn btn-primary mt-auto align-self-start">View teams</a>
+              <h3 class="h5 card-title">Teams</h3>
+              <p class="card-text">Brazil, the United States, Germany, Norway, Japan and Spain: their history at every World Cup and their squads.</p>
+              <a href="teams.html" class="btn btn-primary mt-auto align-self-start">View teams</a>
             </div>
           </div>
         </div>
@@ -88,46 +75,21 @@
             <img src="images/players.jpg" class="card-img-top img-players"
                  alt="A Brazil player in a yellow kit striking a football during a match">
             <div class="card-body d-flex flex-column">
-              <h3 class="h5 card-title">2023 players</h3>
-              <p class="card-text">Search all 138 squad players by team, position, club or name.</p>
+              <h3 class="h5 card-title">Players</h3>
+              <p class="card-text">Search the 2023 squad players by name, team, position or club, with awards and previous clubs.</p>
               <a href="players.html" class="btn btn-primary mt-auto align-self-start">View players</a>
             </div>
           </div>
         </div>
 
-      </div>
-    </section>
-
-    <section id="about" class="mt-5" aria-labelledby="about-title">
-      <h2 class="h3 mb-4" id="about-title">Coming next</h2>
-      <div class="row g-4">
-
-        <div class="col-12 col-md-4">
-          <div class="card h-100 feature-card">
-            <div class="card-body">
-              <div class="feature-icon" aria-hidden="true">🔍</div>
-              <h3 class="h5 card-title">More search and filters</h3>
-              <p class="card-text mb-0">Find results by host, stadium or top scorer.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4">
-          <div class="card h-100 feature-card">
-            <div class="card-body">
-              <div class="feature-icon" aria-hidden="true">⭐</div>
-              <h3 class="h5 card-title">Favourites and wishlist</h3>
-              <p class="card-text mb-0">Log in to save teams, players and stadiums you want to visit.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4">
-          <div class="card h-100 feature-card">
-            <div class="card-body">
-              <div class="feature-icon" aria-hidden="true">🏆</div>
-              <h3 class="h5 card-title">Trivia quizzes</h3>
-              <p class="card-text mb-0">Test your knowledge and keep your best scores.</p>
+        <div class="col-12">
+          <div class="card feature-card">
+            <div class="card-body d-md-flex justify-content-between align-items-center">
+              <div>
+                <h3 class="h5 card-title">Tournaments</h3>
+                <p class="card-text mb-3 mb-md-0">All nine editions, from China 1991 to Australia and New Zealand 2023, with hosts, champions and runners-up.</p>
+              </div>
+              <a href="tournaments.html" class="btn btn-primary">View tournaments</a>
             </div>
           </div>
         </div>
@@ -137,17 +99,9 @@
 
   </main>
 
-  <footer class="site-footer text-center text-white py-3">
-    <small>&copy; 2026 WWC Archive &middot; TU Dublin Web Development Project</small>
-    <small class="d-block mb-1">
-      Photos: Palácio do Planalto (<a class="text-white" href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>);
-      Amerpear (<a class="text-white" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>),
-      via Wikimedia Commons. See <a class="text-white" href="images/credits.txt">image credits</a>.
-    </small>
-  </footer>
+  <div id="site-footer"></div>
 
   <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="common.js"></script>
-  <script src="home.js"></script>
 </body>
 </html>
