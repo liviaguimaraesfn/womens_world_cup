@@ -164,7 +164,7 @@ section[id], div[id] { scroll-margin-top: 5rem; }
   background: var(--team); margin-right: .4rem; }
 
 /* Login placeholder */
-.login-box { max-width: 28rem; border: 1px solid var(--border-soft); border-top: 6px solid var(--wine);
+.login-box { max-width: 28rem; margin-inline: auto; border: 1px solid var(--border-soft); border-top: 6px solid var(--wine);
   border-radius: .5rem; padding: 1.5rem; background: #fff; }
 
 @media (min-width: 768px) {
