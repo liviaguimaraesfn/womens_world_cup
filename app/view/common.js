@@ -24,6 +24,20 @@ async function getJSON(url) {
   return response.json();
 }
 
+// For POST / PUT / DELETE. Throws an Error carrying the server's message on failure.
+async function sendJSON(method, url, body) {
+  const options = { method, headers: {} };
+  if (body !== undefined) {
+    options.headers['Content-Type'] = 'application/json';
+    options.body = JSON.stringify(body);
+  }
+  const response = await fetch(url, options);
+  if (response.status === 204) return null;
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(data.error || `Request failed: ${response.status}`);
+  return data;
+}
+
 let staticData = null;
 function loadStaticData() {
   if (!staticData) {

@@ -1,7 +1,7 @@
 import mysql from 'mysql2/promise';
 import details from '../config/mysql.js';
 
-const pool = mysql.createPool({
+export const pool = mysql.createPool({
   ...details,
   waitForConnections: true,
   connectionLimit: 10

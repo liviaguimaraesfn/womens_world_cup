@@ -19,9 +19,11 @@
 
   <main class="page-wrap content-area py-4 py-md-5">
     <div class="login-box">
+      <div id="account-message" class="alert d-none" role="status"></div>
+
+      <!-- Log in -->
       <form id="login-form" novalidate>
-        <h2 class="h4 mb-3">Welcome back</h2>
-        <div id="login-message" class="alert alert-danger d-none" role="alert"></div>
+        <h2 class="h4 mb-3">Log in</h2>
         <div class="mb-3">
           <label for="email" class="form-label">Email</label>
           <input id="email" type="email" class="form-control" autocomplete="email" required>
@@ -31,14 +33,60 @@
           <input id="password" type="password" class="form-control" autocomplete="current-password" required>
         </div>
         <button type="submit" class="btn btn-primary w-100">Log in</button>
+        <p class="mt-3 mb-0 text-center">No account yet?
+          <button type="button" id="show-register" class="btn btn-link p-0 align-baseline">Register</button></p>
       </form>
 
-      <div id="welcome" class="d-none" role="status">
-        <h2 class="h4 mb-2">You're logged in</h2>
-        <p class="mb-3">Signed in as <strong id="welcome-email"></strong>.</p>
-        <a href="index.html" class="btn btn-primary w-100 mb-2">Go to the museum</a>
-        <button type="button" id="logout" class="btn btn-outline-secondary w-100">Log out</button>
-      </div>
+      <!-- CREATE -->
+      <form id="register-form" class="d-none" novalidate>
+        <h2 class="h4 mb-3">Create an account</h2>
+        <div class="mb-3">
+          <label for="reg-name" class="form-label">Your name</label>
+          <input id="reg-name" type="text" class="form-control" maxlength="60" autocomplete="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="reg-email" class="form-label">Email</label>
+          <input id="reg-email" type="email" class="form-control" maxlength="120" autocomplete="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="reg-password" class="form-label">Password (at least 8 characters)</label>
+          <input id="reg-password" type="password" class="form-control" minlength="8" autocomplete="new-password" required>
+        </div>
+        <div class="mb-3">
+          <label for="reg-team" class="form-label">Favourite team (optional)</label>
+          <select id="reg-team" class="form-select team-select"></select>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Create account</button>
+        <p class="mt-3 mb-0 text-center">Already registered?
+          <button type="button" id="show-login" class="btn btn-link p-0 align-baseline">Log in</button></p>
+      </form>
+
+      <!-- READ / UPDATE / DELETE -->
+      <section id="account" class="d-none">
+        <h2 class="h4 mb-3">My account</h2>
+        <dl class="row mb-4">
+          <dt class="col-5">Name</dt><dd class="col-7" id="acc-name"></dd>
+          <dt class="col-5">Email</dt><dd class="col-7" id="acc-email"></dd>
+          <dt class="col-5">Favourite team</dt><dd class="col-7" id="acc-team"></dd>
+          <dt class="col-5">Member since</dt><dd class="col-7" id="acc-since"></dd>
+        </dl>
+
+        <form id="edit-form" novalidate>
+          <h3 class="h6">Edit details</h3>
+          <div class="mb-3">
+            <label for="edit-name" class="form-label">Name</label>
+            <input id="edit-name" type="text" class="form-control" maxlength="60" required>
+          </div>
+          <div class="mb-3">
+            <label for="edit-team" class="form-label">Favourite team</label>
+            <select id="edit-team" class="form-select team-select"></select>
+          </div>
+          <button type="submit" class="btn btn-primary w-100 mb-2">Save changes</button>
+        </form>
+
+        <button type="button" id="logout" class="btn btn-outline-secondary w-100 mb-2">Log out</button>
+        <button type="button" id="delete-account" class="btn btn-outline-danger w-100">Delete my account</button>
+      </section>
     </div>
   </main>
 

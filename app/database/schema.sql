@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS wwc CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE wwc;
 
-DROP TABLE IF EXISTS player_awards, player_clubs, squads, team_tournaments, players, teams, tournaments;
+DROP TABLE IF EXISTS users, player_awards, player_clubs, squads, team_tournaments, players, teams, tournaments;
 
 CREATE TABLE tournaments (
   id         INT AUTO_INCREMENT PRIMARY KEY,
@@ -77,4 +77,16 @@ CREATE TABLE player_clubs (
   sort_order  TINYINT NOT NULL DEFAULT 0,
   FOREIGN KEY (player_id) REFERENCES players(id) ON DELETE CASCADE,
   INDEX idx_clubs_player (player_id)
+);
+
+-- Registered visitors (milestone 2: CRUD on user accounts).
+-- The password is never stored, only a salted scrypt hash.
+CREATE TABLE users (
+  id                  INT AUTO_INCREMENT PRIMARY KEY,
+  email               VARCHAR(120) NOT NULL UNIQUE,
+  password_hash       VARCHAR(200) NOT NULL,
+  display_name        VARCHAR(60)  NOT NULL,
+  favourite_team_code CHAR(3) NULL,
+  created_at          TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (favourite_team_code) REFERENCES teams(code) ON DELETE SET NULL
 );
